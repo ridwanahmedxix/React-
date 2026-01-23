@@ -1,4 +1,4 @@
-# React Learning Repo 🚀
+# React Learning  🚀
 
 This repository is for my React learning journey.  
 I use it to practice React basics, try small experiments, and build mini projects as I learn.
