@@ -4,6 +4,7 @@ import Home from "./Home";
 function App() {
   return (
     <>
+      <Home></Home>
       <h1>Hello World </h1>
     </>
   );
