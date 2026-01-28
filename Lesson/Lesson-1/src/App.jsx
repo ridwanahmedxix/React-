@@ -8,6 +8,7 @@ function App() {
     <>
       <Name></Name>
       <Home></Home>
+      <Blogs></Blogs>
       <Products></Products>
       <h1>Hello World </h1>
     </>
