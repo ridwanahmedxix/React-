@@ -1,4 +1,6 @@
-function Products() {
+import React from "react";
+
+const Products = () => {
   return (
     <div>
       <ul>
@@ -10,6 +12,6 @@ function Products() {
       </ul>
     </div>
   );
-}
+};
 
 export default Products;
