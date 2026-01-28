@@ -1,6 +1,5 @@
 import "./App.css";
 import Home from "./Home";
-import Blogs from "./Blogs";
 import Products from "./Products";
 import Name from "./Name";
 function App() {
@@ -9,7 +8,6 @@ function App() {
       <Name></Name>
       <Home></Home>
       <Products></Products>
-      <Blogs></Blogs>
       <h1>Hello World </h1>
     </>
   );
