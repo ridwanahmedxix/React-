@@ -3,6 +3,7 @@ import Home from "./Home";
 import Products from "./Products";
 import Name from "./Name";
 import Blogs from "./Blogs";
+import About from "./About";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       <Home></Home>
       <Blogs></Blogs>
       <Products></Products>
+      <About></About>
       <h1>Hello World </h1>
     </>
   );
