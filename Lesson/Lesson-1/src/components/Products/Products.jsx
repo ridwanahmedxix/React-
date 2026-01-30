@@ -4,7 +4,7 @@ import "./Products.css";
 const Products = () => {
   return (
     <div>
-      <p>
+      <p className="paraTag">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
         molestias.
       </p>
