@@ -1,0 +1,9 @@
+.clickBtn {
+  background-color: aqua;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 19px;
+  cursor: pointer;
+}

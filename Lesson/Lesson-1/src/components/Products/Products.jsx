@@ -1,14 +1,14 @@
 import React from "react";
+import "./Products.css";
 
 const Products = () => {
   return (
     <div>
-      <ul>
-        <li>Apple</li>
-        <li>Ball</li>
-        <li>Cat</li>
-        <li>Dog</li>
-      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+        molestias.
+      </p>
+      <button className="clickBtn">Click Me</button>
     </div>
   );
 };
