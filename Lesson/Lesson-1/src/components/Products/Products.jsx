@@ -4,10 +4,10 @@ const Products = () => {
   return (
     <div>
       <ul>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-        <li>D</li>
+        <li>Apple</li>
+        <li>Ball</li>
+        <li>Cat</li>
+        <li>Dog</li>
       </ul>
     </div>
   );
