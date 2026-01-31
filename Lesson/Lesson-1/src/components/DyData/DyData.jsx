@@ -7,6 +7,8 @@ const DyData = (props) => {
     <div id="ExploreDyData">
       <h2>Explore Daynamic Data </h2>
       <h2> Name: {props.name} </h2>
+      <h2> Age: {props.age} </h2>
+      <h2> Address: {props.address} </h2>
     </div>
   );
 };
