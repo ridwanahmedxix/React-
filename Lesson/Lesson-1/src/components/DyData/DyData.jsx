@@ -1,7 +1,7 @@
 import React from "react";
 import "./DyData.css";
 
-const DyData = () => {
+const DyData = (props) => {
   return (
     <div id="ExploreDyData">
       <h2>Explore Daynamic Data</h2>
