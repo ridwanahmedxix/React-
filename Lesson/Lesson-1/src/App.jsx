@@ -4,6 +4,9 @@ function App() {
   return (
     <>
       <DyData></DyData>
+      <DyData></DyData>
+      <DyData></DyData>
+      <DyData></DyData>
     </>
   );
 }
