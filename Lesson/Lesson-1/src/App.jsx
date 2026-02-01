@@ -1,9 +1,9 @@
 import "./App.css";
-import Nav from "./components/Nav/Nav";
+import { AllComponents } from "./components/AllComponents/AllComponents";
 function App() {
   return (
     <div>
-      <Nav></Nav>
+      <AllComponents></AllComponents>
     </div>
   );
 }
