@@ -1,13 +1,7 @@
 import "./App.css";
-import HeroArea from "./components/HeroArea/HeroArea";
-import Nav from "./components/Nav/Nav";
+import AllComponents from "./components/AllComponents/AllComponents";
 function App() {
-  return (
-    <div>
-      <Nav></Nav>
-      <HeroArea></HeroArea>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
