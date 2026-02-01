@@ -1,0 +1,23 @@
+#parentDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 180px 50px 30px 50px;
+}
+#div2 {
+  max-width: 600px;
+  width: 100%;
+}
+#div1 h1 {
+  color: deeppink;
+  margin-bottom: 15px;
+}
+#div2 p {
+  margin-bottom: 20px;
+  line-height: 29px;
+}
+#div2 p b {
+  color: crimson;
+}
+#div2 ul li {
+  list-style-position: inside;
+}

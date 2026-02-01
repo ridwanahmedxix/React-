@@ -2,10 +2,10 @@ import React from "react";
 import "./HeroArea.css";
 const HeroArea = () => {
   return (
-    <div>
+    <div id="parentDiv">
       <div id="div1">
         <h1>Model Collage </h1>
-        <p>Ridwan Ahmed </p>
+        <p> Jadur Char Rowmari , Kurigram </p>
       </div>
       <div id="div2">
         <p>
