@@ -5,7 +5,7 @@ const Home = (props) => {
   return (
     <div>
       <h1>Products Name : {props.products.name} </h1>
-      <h2> Products Price : </h2>
+      <h2> Products Price : {props.products.price} </h2>
     </div>
   );
 };
