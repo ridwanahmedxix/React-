@@ -6,7 +6,7 @@ function App() {
   const peopleAge = [18, 19, 20, 21, 22];
   return (
     <div>
-      <Home></Home>
+      <Home peopleName={peopleName} peopleAge={peopleAge}></Home>
     </div>
   );
 }
