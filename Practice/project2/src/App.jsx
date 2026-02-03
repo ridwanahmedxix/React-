@@ -1,20 +1,18 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 
-function App() {
-  let [price, setPrice] = useState(10);
-
-  const increaseHandelar = () => {
+const App = () => {
+  const [price, setPrice] = useState(10);
+  const increaseHandle = () => {
     const newPrice = price + 1;
     setPrice(newPrice);
   };
-
   return (
     <div>
-      <h1>Price : {price} </h1>
-      <button onClick={increaseHandelar}>Increase</button>
+      <h1> Price : {price} </h1>
+      <button onClick={increaseHandle}>Increase</button>
     </div>
   );
-}
+};
 
 export default App;
