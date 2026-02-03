@@ -17,10 +17,14 @@ function App() {
     },
   ];
 
+  const cfAlert = () => {
+    alert(" This is a Alert");
+  };
+
   return (
     <div>
       {products.map((product) => (
-        <Home product={product}></Home>
+        <Home product={product} clickAlert={cfAlert}></Home>
       ))}
     </div>
   );
