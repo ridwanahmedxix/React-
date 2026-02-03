@@ -17,7 +17,13 @@ function App() {
     },
   ];
 
-  return <div></div>;
+  return (
+    <div>
+      {products.map((product) => (
+        <Home></Home>
+      ))}
+    </div>
+  );
 }
 
 export default App;
