@@ -1,11 +1,10 @@
 import React from "react";
 import "./Home.css";
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div>
-      <h1 id="pName"> Peoples Name : {props.peopleName[2]} </h1>
-      <h2> Peoples Age : {props.peopleAge} </h2>
+      <h1>Hello</h1>
     </div>
   );
 };
