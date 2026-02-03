@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       {products.map((product) => (
-        <Home></Home>
+        <Home product={product}></Home>
       ))}
     </div>
   );
