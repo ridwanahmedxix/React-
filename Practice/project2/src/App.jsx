@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App";
+import "./App.css";
 
 const App = () => {
   const [price, setPrice] = useState(99);
@@ -9,10 +9,16 @@ const App = () => {
     setPrice(newPrice);
   };
 
+  const decreaseHandle = () => {
+    const newPrice = price - 1;
+    setPrice(newPrice);
+  };
+
   return (
     <div>
       <h1> Price : {price} </h1>
       <button onClick={increaseHandle}>Increase</button>
+      <button onClick={decreaseHandle}> Decrease</button>
     </div>
   );
 };
