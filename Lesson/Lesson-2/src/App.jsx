@@ -4,10 +4,10 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  const increaseNumber = () => {
-    const newCount = count + 1;
-    setCount(newCount);
-  };
+  // const increaseNumber = () => {
+  //   const newCount = count + 1;
+  //   setCount(newCount);
+  // };
 
   useEffect(() => {
     alert("This is a Alert");
