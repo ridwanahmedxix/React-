@@ -13,6 +13,10 @@ function App() {
     alert("This is a Alert");
   }, []);
 
+  useEffect(() => {
+    alert(" Count State Was Chabged");
+  }, [count]);
+
   return (
     <div>
       <h1> Increase count : {count} </h1>
