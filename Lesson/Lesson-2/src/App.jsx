@@ -7,10 +7,16 @@ const App = () => {
     setPrice(newPrice);
   };
 
+  const decreaseHandle = () => {
+    const newPrice = price - 1;
+    setPrice(newPrice);
+  };
+
   return (
     <div>
       <h1>Increase : {price} </h1>
       <button onClick={increaseHandle}>Increase</button>
+      <button onClick={decreaseHandle}> Decrease</button>
     </div>
   );
 };
