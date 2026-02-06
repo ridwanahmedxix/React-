@@ -17,6 +17,10 @@ function App() {
     alert("Price State Was Changed ");
   }, [price]);
 
+  useEffect(() => {
+    console.log("When Loaded");
+  }, []);
+
   return (
     <div>
       <h1> Count : {price} </h1>
