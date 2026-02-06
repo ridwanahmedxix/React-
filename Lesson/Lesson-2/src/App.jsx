@@ -1,24 +1,26 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [price, setPrice] = useState(10);
+  const [count, setCount] = useState(0);
 
-  const increaseHandle = () => {
-    const newPrice = price + 1;
-    setPrice(newPrice);
+  const increaseNumber = () => {
+    const newCount = count + 1;
+    setCount(newCount);
   };
 
-  const decreaseHandle = () => {
-    const newPrice = price - 1;
-    setPrice(newPrice);
-  };
+  useEffect(() => {
+    alert("This is a Alert");
+  }, []);
+
+  useEffect(() => {
+    alert(" Count State Was Chabged");
+  }, [count]);
 
   return (
     <div>
-      <h1> Count : {price} </h1>
-      <button onClick={increaseHandle}> Increase </button>
-      <button onClick={decreaseHandle}>Decrease </button>
+      <h1> Increase count : {count} </h1>
+      <button onClick={increaseNumber}>Click</button>
     </div>
   );
 }
