@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
@@ -8,6 +8,14 @@ function App() {
     const newPrice = price + 1;
     setPrice(newPrice);
   };
+
+  useEffect(() => {
+    alert("This is a First Alert ");
+  }, []);
+
+  useEffect(() => {
+    alert("Click To Alert Show - useEffect");
+  }, [price]);
 
   return (
     <div>
