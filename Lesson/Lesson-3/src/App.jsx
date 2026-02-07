@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import SingleuserData from "./components/SingleuserData/SingleuserData";
 
 function App() {
   const [allData, setAllData] = useState([]);
@@ -15,7 +16,7 @@ function App() {
       <h1>Hello : {allData.length} </h1>
 
       {allData.map((singleData) => (
-        <p> {singleData.name} </p>
+        <SingleuserData singleData={singleData}></SingleuserData>
       ))}
     </div>
   );
