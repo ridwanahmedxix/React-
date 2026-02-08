@@ -9,6 +9,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => setAllData(data));
   }, []);
+
   return (
     <div>
       <h1>Hello World </h1>
