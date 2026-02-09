@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [allData, setAllData] = useState([]);
+
   return (
     <div>
       <h1>Hello World</h1>
