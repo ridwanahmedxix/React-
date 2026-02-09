@@ -13,8 +13,6 @@ function App() {
 
   return (
     <div>
-      <h1>Hello </h1>
-
       {allData.map((singleData) => (
         <SingleUserData singleData={singleData}></SingleUserData>
       ))}
