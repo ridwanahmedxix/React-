@@ -1,4 +1,6 @@
 .singleUserCard {
   border: 2px solid red;
   margin: 30px 0px;
+  border-radius: 10px;
+  padding: 10px;
 }
