@@ -4,7 +4,7 @@ import "./SingleuserData.css";
 const SingleuserData = ({ singleData }) => {
   const { id, name, phone, website, company } = singleData;
   return (
-    <div className="singleUserCard">
+    <div>
       <h3> Id : {id} </h3>
       <h3> Name : {name} </h3>
       <h3> Phone : {phone} </h3>
