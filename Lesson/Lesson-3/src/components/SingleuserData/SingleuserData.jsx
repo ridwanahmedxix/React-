@@ -1,10 +1,9 @@
 import React from "react";
-import "./SingleuserData.css";
 
 const SingleuserData = ({ singleData }) => {
   const { id, name, phone, website, company } = singleData;
   return (
-    <div>
+    <div className="bg-red-500 ">
       <h3> Id : {id} </h3>
       <h3> Name : {name} </h3>
       <h3> Phone : {phone} </h3>
