@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="user-container">
       {allData.map((singleData) => (
         <SingleuserData singleData={singleData}></SingleuserData>
       ))}
