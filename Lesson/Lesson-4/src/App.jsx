@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import UserData from "./Components/UserData";
 
 function App() {
   const [allData, setAllData] = useState([]);
@@ -12,6 +13,10 @@ function App() {
   return (
     <div>
       <h1>Hello World </h1>
+
+      {allData.map((singleData) => (
+        <UserData singleData={singleData}></UserData>
+      ))}
     </div>
   );
 }
