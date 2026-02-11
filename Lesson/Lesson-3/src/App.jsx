@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="grid grid-cols-3 gap-7  ">
       {allData.map((singleData) => (
         <SingleuserData singleData={singleData}></SingleuserData>
       ))}
