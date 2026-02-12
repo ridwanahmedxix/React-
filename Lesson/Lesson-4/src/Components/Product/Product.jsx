@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Product.css";
 import UserData from "../UserData/UserData";
 
 const Product = () => {
@@ -11,7 +12,7 @@ const Product = () => {
   }, []);
 
   return (
-    <div>
+    <div className="userCardParent">
       {allData.map((singleData) => (
         <UserData key={singleData.id} singleData={singleData}></UserData>
       ))}
