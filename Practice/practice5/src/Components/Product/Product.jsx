@@ -2,11 +2,10 @@ import React from "react";
 import "./Product.css";
 
 const Product = ({ singleData }) => {
-  const [name, age, location] = singleData;
+  const { name, age, location } = singleData;
 
   return (
     <div>
-      <h1>Hello World</h1>
       <h2> Name : {name} </h2>
       <h3> Age : {age} </h3>
       <h4> Location : {location} </h4>
