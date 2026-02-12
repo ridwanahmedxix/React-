@@ -1,7 +1,14 @@
+.userCardParent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
 .UserCard {
   border: 2px solid red;
   padding: 10px;
 }
+
 .addToCard {
   background-color: green;
   padding: 10px 20px;

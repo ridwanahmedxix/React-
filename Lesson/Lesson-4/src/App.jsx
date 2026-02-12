@@ -1,22 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
-import UserData from "./Components/UserData/UserData";
+import Product from "./Components/Product/Product";
 
-function App() {
-  const [allData, setAllData] = useState([]);
-  useEffect(() => {
-    fetch("userData.json")
-      .then((res) => res.json())
-      .then((data) => setAllData(data));
-  }, []);
-
+const App = () => {
   return (
-    <div className="userCardParent">
-      {allData.map((singleData) => (
-        <UserData key={singleData.id} singleData={singleData}></UserData>
-      ))}
+    <div>
+      <Product></Product>
     </div>
   );
-}
+};
 
 export default App;
