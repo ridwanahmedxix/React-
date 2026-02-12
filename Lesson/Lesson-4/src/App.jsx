@@ -11,9 +11,9 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="userCardParent">
       {allData.map((singleData) => (
-        <UserData singleData={singleData}></UserData>
+        <UserData key={singleData.id} singleData={singleData}></UserData>
       ))}
     </div>
   );
