@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import UserData from "./Components/UserData";
+import UserData from "./Components/UserData/UserData";
 
 function App() {
   const [allData, setAllData] = useState([]);
