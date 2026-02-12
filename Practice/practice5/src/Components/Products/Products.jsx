@@ -10,7 +10,7 @@ const Products = () => {
       .then((data) => setAllData(data));
   }, []);
   return (
-    <div>
+    <div className="parentSingleCaed">
       {allData.map((singleData) => (
         <Product singleData={singleData}></Product>
       ))}

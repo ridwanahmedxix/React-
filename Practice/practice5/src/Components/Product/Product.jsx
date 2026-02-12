@@ -5,7 +5,7 @@ const Product = ({ singleData }) => {
   const { name, age, location } = singleData;
 
   return (
-    <div>
+    <div className="SingleCard">
       <h2> Name : {name} </h2>
       <h3> Age : {age} </h3>
       <h4> Location : {location} </h4>
