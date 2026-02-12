@@ -1,3 +1,11 @@
 .UserCard {
   border: 2px solid red;
+  padding: 10px;
+}
+.addToCard {
+  background-color: green;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px 0px;
+  cursor: pointer;
 }

@@ -10,6 +10,7 @@ const UserData = ({ singleData }) => {
       <h3> id : {name} </h3>
       <h3> id : {phone} </h3>
       <h3> id : {address} </h3>
+      <button className="addToCard">Add To Card </button>
     </div>
   );
 };
