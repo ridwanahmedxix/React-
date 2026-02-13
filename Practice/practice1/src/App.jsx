@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Products from "./Components/Products/Products";
 import Placement from "./Components/Placement/Placement";
 
 function App() {
+  const AddToCard = () => {
+    console.log("Clicked");
+  };
+
   return (
     <div className="App_JSX_Parent">
-      <Products></Products>
+      <Products AddToCard={AddToCard}></Products>
       <Placement></Placement>
     </div>
   );

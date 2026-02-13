@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Products.css";
 import Product from "../Product/Product";
 
-function Products() {
+function Products({ AddToCard }) {
   const [allProduct, setAllProduct] = useState([]);
   useEffect(() => {
     fetch("products.json")
@@ -13,7 +13,11 @@ function Products() {
   return (
     <div className="Parent_singleProductCard">
       {allProduct.map((singleProduct) => (
-        <Product key={singleProduct.id} singleProduct={singleProduct}></Product>
+        <Product
+          key={singleProduct.id}
+          singleProduct={singleProduct}
+          AddToCard={AddToCard}
+        ></Product>
       ))}
     </div>
   );
