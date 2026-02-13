@@ -11,7 +11,7 @@ function Products() {
   }, []);
 
   return (
-    <div>
+    <div className="Parent_singleProductCard">
       {allProduct.map((singleProduct) => (
         <Product key={singleProduct.id} singleProduct={singleProduct}></Product>
       ))}

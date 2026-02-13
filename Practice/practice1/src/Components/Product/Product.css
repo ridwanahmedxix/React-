@@ -1,0 +1,17 @@
+.singleProductCard {
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.AddToCardBtn {
+  background-color: blue;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.AddToCardBtn:hover {
+  background-color: rgb(15, 15, 179);
+}
