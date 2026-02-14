@@ -7,13 +7,14 @@ function App() {
   const [place, setPlace] = useState([]);
 
   const AddToCard = (placement) => {
-    console.log("Clicked", placement);
+    const newPlace = [...place, placement];
+    setPlace(newPlace);
   };
 
   return (
     <div className="App_JSX_Parent">
       <Products AddToCard={AddToCard}></Products>
-      <Placement></Placement>
+      <Placement place={place}></Placement>
     </div>
   );
 }
