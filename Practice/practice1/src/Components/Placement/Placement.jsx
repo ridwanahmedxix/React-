@@ -1,13 +1,16 @@
 import React from "react";
 import "./Placement.css";
+import SingleCard from "../SingleCard/SingleCard";
 
 const Placement = ({ place }) => {
   console.log(place);
   return (
     <div>
-      <h1>This is a Placement Sec</h1>
+      <h1>ADD TO CARD</h1>
 
-      {place.map(SingleCard)}
+      {place.map((singleCard) => (
+        <SingleCard key={singleCard.id} singleCard={singleCard}></SingleCard>
+      ))}
     </div>
   );
 };
