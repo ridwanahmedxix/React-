@@ -11,7 +11,7 @@ const Product = ({ singleProduct, AddToCard }) => {
       <h3> Price - {price} </h3>
       <h4> Brand - {brand} </h4>
       <h4> Color - {color} </h4>
-      <button onClick={AddToCard} className="AddToCardBtn">
+      <button onClick={() => AddToCard(singleProduct)} className="AddToCardBtn">
         Add To Card{" "}
       </button>
     </div>
