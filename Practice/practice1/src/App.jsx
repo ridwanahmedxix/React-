@@ -4,8 +4,8 @@ import Products from "./Components/Products/Products";
 import Placement from "./Components/Placement/Placement";
 
 function App() {
-  const AddToCard = () => {
-    console.log("Clicked");
+  const AddToCard = (placement) => {
+    console.log("Clicked", placement);
   };
 
   return (
