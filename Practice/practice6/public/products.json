@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Office Chair",
+    "price": 7500,
+    "brand": "Navana",
+    "color": "Black"
+  },
+  {
+    "id": 2,
+    "name": "Study Table",
+    "price": 9500,
+    "brand": "Otobi",
+    "color": "Brown"
+  },
+  {
+    "id": 3,
+    "name": "Air Cooler",
+    "price": 12000,
+    "brand": "Walton",
+    "color": "White"
+  },
+  {
+    "id": 4,
+    "name": "Electric Kettle",
+    "price": 2200,
+    "brand": "Philips",
+    "color": "Silver"
+  },
+  {
+    "id": 5,
+    "name": "Rice Cooker",
+    "price": 3500,
+    "brand": "Miyako",
+    "color": "Red"
+  },
+  {
+    "id": 6,
+    "name": "Wall Clock",
+    "price": 1200,
+    "brand": "Ajanta",
+    "color": "Black"
+  },
+  {
+    "id": 7,
+    "name": "Ceiling Fan",
+    "price": 4800,
+    "brand": "GFC",
+    "color": "Cream"
+  },
+  {
+    "id": 8,
+    "name": "Blender Machine",
+    "price": 3200,
+    "brand": "Vision",
+    "color": "White"
+  },
+  {
+    "id": 9,
+    "name": "LED Light",
+    "price": 600,
+    "brand": "Transtec",
+    "color": "Warm White"
+  },
+  {
+    "id": 10,
+    "name": "Gas Stove",
+    "price": 8500,
+    "brand": "RFL",
+    "color": "Black"
+  },
+  {
+    "id": 11,
+    "name": "Water Filter",
+    "price": 14000,
+    "brand": "Pureit",
+    "color": "Blue"
+  },
+  {
+    "id": 12,
+    "name": "Microwave Oven",
+    "price": 18000,
+    "brand": "Sharp",
+    "color": "Silver"
+  }
+]
