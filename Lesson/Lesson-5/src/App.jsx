@@ -6,8 +6,8 @@ import PlaceMent from "./Components/PlaceMent/PlaceMent";
 function App() {
   const [cardData, setCardData] = useState([]);
 
-  const AddToCardData = (singleData) => {
-    const newCardData = { ...cardData, singleData };
+  const AddToCardData = (singleDataInfo) => {
+    const newCardData = [...cardData, singleDataInfo];
     setCardData(newCardData);
   };
 
