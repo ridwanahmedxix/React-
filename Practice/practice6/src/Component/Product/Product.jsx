@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product.css";
 
-const Product = ({ singleData }) => {
+const Product = ({ singleData, AddToCard }) => {
   const { id, name, price, brand, color } = singleData;
 
   return (
@@ -10,7 +10,7 @@ const Product = ({ singleData }) => {
       <h2> Name - {name} </h2>
       <h4> Price - {price} </h4>
       <h4> Color - {color} </h4>
-      <button className="AddToCard_Btn_Design">Add To Card</button>
+      <button onClick={() => AddToCard(singleData)}>Add To Card</button>
     </div>
   );
 };
