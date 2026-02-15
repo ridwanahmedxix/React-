@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 2500,
+    "brand": "Sony",
+    "color": "Black"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 3200,
+    "brand": "Samsung",
+    "color": "Silver"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "price": 1500,
+    "brand": "Logitech",
+    "color": "Red"
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "price": 2800,
+    "brand": "JBL",
+    "color": "Blue"
+  },
+  {
+    "id": 5,
+    "name": "Laptop Backpack",
+    "price": 1800,
+    "brand": "HP",
+    "color": "Gray"
+  },
+  {
+    "id": 6,
+    "name": "Android Smartphone",
+    "price": 15000,
+    "brand": "Xiaomi",
+    "color": "Green"
+  },
+  {
+    "id": 7,
+    "name": "LED Monitor",
+    "price": 12000,
+    "brand": "Dell",
+    "color": "Black"
+  },
+  {
+    "id": 8,
+    "name": "Mechanical Keyboard",
+    "price": 4000,
+    "brand": "Corsair",
+    "color": "White"
+  },
+  {
+    "id": 9,
+    "name": "Power Bank",
+    "price": 2200,
+    "brand": "Anker",
+    "color": "Black"
+  },
+  {
+    "id": 10,
+    "name": "Digital Camera",
+    "price": 45000,
+    "brand": "Canon",
+    "color": "Black"
+  },
+  {
+    "id": 11,
+    "name": "Tablet Device",
+    "price": 20000,
+    "brand": "Apple",
+    "color": "Gold"
+  },
+  {
+    "id": 12,
+    "name": "Fitness Band",
+    "price": 1800,
+    "brand": "Huawei",
+    "color": "Purple"
+  }
+]
