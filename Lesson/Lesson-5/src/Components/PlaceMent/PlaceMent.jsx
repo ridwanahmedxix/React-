@@ -4,7 +4,7 @@ import OneCard from "../OneCard/OneCard";
 const PlaceMent = ({ cardData }) => {
   return (
     <div>
-      <h1> PlaceMent Section </h1>
+      <h1> Add To Card Section </h1>
 
       {cardData.map((singleCardInfo) => (
         <OneCard
