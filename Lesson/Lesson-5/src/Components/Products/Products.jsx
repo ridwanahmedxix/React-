@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Products.css";
 import Product from "../Product/Product";
 
-const Products = () => {
+const Products = ({ AddToCardData }) => {
   const [singleProduct, setSingleProduct] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,11 @@ const Products = () => {
   return (
     <div className="Parent_singleCard_Design">
       {singleProduct.map((singleData) => (
-        <Product key={singleData.id} singleData={singleData}></Product>
+        <Product
+          key={singleData.id}
+          singleData={singleData}
+          AddToCardData={AddToCardData}
+        ></Product>
       ))}
     </div>
   );
