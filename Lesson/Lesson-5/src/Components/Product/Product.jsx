@@ -11,7 +11,10 @@ const Product = ({ singleData, AddToCardData }) => {
       <h4> Price - {price} </h4>
       <p> Brand - {brand} </p>
       <p> Color - {color} </p>
-      <button onClick={AddToCardData} className="AddToCardBtn_Design">
+      <button
+        onClick={() => AddToCardData(singleData)}
+        className="AddToCardBtn_Design"
+      >
         Add To Card
       </button>
     </div>
