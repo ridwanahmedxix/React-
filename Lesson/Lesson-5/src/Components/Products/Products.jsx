@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Products.css";
 import Product from "../Product/Product";
 
 const Products = () => {
@@ -11,7 +12,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div>
+    <div className="Parent_singleCard_Design">
       {singleProduct.map((singleData) => (
         <Product key={singleData.id} singleData={singleData}></Product>
       ))}

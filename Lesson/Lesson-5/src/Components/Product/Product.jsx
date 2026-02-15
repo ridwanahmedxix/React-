@@ -1,15 +1,17 @@
 import React from "react";
+import "./Product.css";
 
 const Product = ({ singleData }) => {
   const { id, name, price, brand, color } = singleData;
 
   return (
-    <div>
+    <div className="singleCard_Design">
       <h3>Id - {id} </h3>
       <h2> Name - {name} </h2>
       <h4> Price - {price} </h4>
       <p> Brand - {brand} </p>
       <p> Color - {color} </p>
+      <button className="AddToCardBtn_Design">Add To Card</button>
     </div>
   );
 };

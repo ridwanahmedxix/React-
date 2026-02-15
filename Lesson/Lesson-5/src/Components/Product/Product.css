@@ -1,0 +1,16 @@
+.singleCard_Design {
+  border: 2px solid green;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.AddToCardBtn_Design {
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.AddToCardBtn_Design:hover {
+  background-color: rgb(166, 2, 2);
+}
