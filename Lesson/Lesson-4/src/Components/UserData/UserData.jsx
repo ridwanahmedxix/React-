@@ -10,7 +10,7 @@ const UserData = ({ singleData, AddToCard }) => {
       <h3> id : {name} </h3>
       <h3> id : {phone} </h3>
       <h3> id : {address} </h3>
-      <button onClick={AddToCard} className="addToCard">
+      <button onClick={() => AddToCard(singleData)} className="addToCard">
         Add To Card{" "}
       </button>
     </div>

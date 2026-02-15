@@ -4,16 +4,19 @@ import Product from "./Components/Product/Product";
 import Placement from "./Components/Placement/Placement";
 
 const App = () => {
-  const [placement, setPlacement] = useState([]);
+  const [card, setCard] = useState([]);
 
-  const AddToCard = () => {
+  const AddToCard = (placement) => {
     console.log("Clicked");
+
+    const newPlacement = [...card, placement];
+    setCard(newPlacement);
   };
 
   return (
     <div className="appJsxParent">
       <Product AddToCard={AddToCard}></Product>
-      <Placement></Placement>
+      <Placement card={card}></Placement>
     </div>
   );
 };
