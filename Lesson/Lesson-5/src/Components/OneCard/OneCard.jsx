@@ -1,10 +1,11 @@
 import React from "react";
+import "./OneCard.css";
 
 const OneCard = ({ singleCardInfo }) => {
   const { id, name, price, brand, color } = singleCardInfo;
 
   return (
-    <div>
+    <div className="One_Card_Design">
       <p> {id} </p>
       <p> {name} </p>
       <p> {price} </p>
