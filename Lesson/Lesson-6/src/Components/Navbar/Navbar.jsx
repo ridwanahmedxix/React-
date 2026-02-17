@@ -3,19 +3,18 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-        </ul>
-      </nav>
+      <a className="bg-purple-500 mx-3 p-[10px] rounded " href="#">
+        Home
+      </a>
+      <a className="bg-purple-500 mx-3 p-[10px] rounded " href="#">
+        About
+      </a>
+      <a className="bg-purple-500 mx-3 p-[10px] rounded " href="#">
+        Products
+      </a>
+      <a className="bg-purple-500 mx-3 p-[10px] rounded " href="#">
+        Contact
+      </a>
     </div>
   );
 };
