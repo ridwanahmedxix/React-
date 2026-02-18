@@ -1,9 +1,15 @@
 import React from "react";
 
-const Product = () => {
+const Product = ({ singleData }) => {
+  const { id, name, price, brand, color } = singleData;
+
   return (
     <div>
-      <h1>Product</h1>
+      <p> Id - {id} </p>
+      <p> Name - {name} </p>
+      <p> Price - {price} </p>
+      <p> Price - {brand} </p>
+      <p> Price - {color} </p>
     </div>
   );
 };
