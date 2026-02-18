@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
 import Products from "./Components/Products/Products";
+import { Outlet } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <h1 className="bg-red-600 text-2xl ">Hello World </h1>
+      <Navbar></Navbar>
+      <Outlet></Outlet>
     </div>
   );
 }
