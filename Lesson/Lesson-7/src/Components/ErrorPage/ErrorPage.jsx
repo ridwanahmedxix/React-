@@ -3,7 +3,10 @@ import React from "react";
 const ErrorPage = () => {
   return (
     <div>
-      <h1> 404 ! Page Not Found </h1>
+      <h1 className="text-5xl  bg-purple-500 p-[10px 15px]  ">
+        {" "}
+        404 ! Page Not Found{" "}
+      </h1>
     </div>
   );
 };
