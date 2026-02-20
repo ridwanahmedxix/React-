@@ -1,21 +1,13 @@
-import React, { useState } from "react";
-import "./App.css";
-import Products from "./Components/Products/Products";
-import PlaceMent from "./Components/PlaceMent/PlaceMent";
+import React from "react";
 
-function App() {
-  const [card, setCard] = useState([]);
-  const AddToCard = (singleProduct) => {
-    const newCard = [...card, singleProduct];
-    setCard(newCard);
-  };
+import NavBar from "./Components/NavBar/NavBar";
 
+const App = () => {
   return (
-    <div className="flex  gap-5">
-      <Products AddToCard={AddToCard}></Products>
-      <PlaceMent card={card}></PlaceMent>
+    <div>
+      <NavBar></NavBar>
     </div>
   );
-}
+};
 
 export default App;
