@@ -1,6 +1,6 @@
 import React from "react";
 
-const Product = ({ singleProduct }) => {
+const Product = ({ singleProduct, AddToCard }) => {
   const { id, name, price, brand, color } = singleProduct;
 
   return (
@@ -10,7 +10,10 @@ const Product = ({ singleProduct }) => {
       <p> Price - {price} </p>
       <p> Brand - {brand} </p>
       <p> Color - {color} </p>
-      <button className="bg-purple-500 py-2 px-3 mt-2 text-white ">
+      <button
+        onClick={() => AddToCard(singleProduct)}
+        className="bg-purple-500 py-2 px-3 mt-2 text-white hover:bg-purple-700 transition "
+      >
         Add To Card
       </button>
     </div>
