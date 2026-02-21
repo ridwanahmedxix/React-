@@ -1,9 +1,10 @@
 import React from "react";
+import Products from "../Products/Products";
 
 const Appex = () => {
   return (
     <div>
-      <h1>Hello Wolrd </h1>
+      <Products></Products>
     </div>
   );
 };
