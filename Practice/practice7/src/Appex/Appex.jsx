@@ -7,13 +7,13 @@ const Appex = () => {
 
   const AddToCard = (singleProduct) => {
     const newCard = [...card, singleProduct];
-    setCard(card);
+    setCard(newCard);
   };
 
   return (
     <div className="flex gap-x-5">
       <Products AddToCard={AddToCard}></Products>
-      <PlaceMent></PlaceMent>
+      <PlaceMent card={card}></PlaceMent>
     </div>
   );
 };
