@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Appex from "./Appex/Appex";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Appex></Appex>
     </div>
   );
 }
