@@ -5,7 +5,11 @@ const Product = ({ singleProduct }) => {
 
   return (
     <div>
-      <h1> {name} </h1>
+      <p> Id - {id} </p>
+      <p> Name - {name} </p>
+      <p> Price - {price} </p>
+      <p> Brand - {brand} </p>
+      <p> Color - {color} </p>
     </div>
   );
 };
