@@ -3,7 +3,7 @@ import React from "react";
 const SingleProduct = ({ singleData }) => {
   const { id, name, price, brand, color } = singleData;
   return (
-    <div>
+    <div className="border-[3px] border-green-400 my-3 px-2 py-3 rounded  ">
       <p> Id - {id} </p>
       <p> Name - {name} </p>
       <p> Price - {price} </p>
