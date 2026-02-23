@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14",
+    "price": 999,
+    "brand": "Apple",
+    "color": "Black"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S23",
+    "price": 899,
+    "brand": "Samsung",
+    "color": "Silver"
+  },
+  {
+    "id": 3,
+    "name": "Pixel 8",
+    "price": 799,
+    "brand": "Google",
+    "color": "Blue"
+  },
+  {
+    "id": 4,
+    "name": "XPS 13",
+    "price": 1199,
+    "brand": "Dell",
+    "color": "Gray"
+  },
+  {
+    "id": 5,
+    "name": "MacBook Air",
+    "price": 1099,
+    "brand": "Apple",
+    "color": "Space Gray"
+  },
+  {
+    "id": 6,
+    "name": "ThinkPad X1",
+    "price": 1299,
+    "brand": "Lenovo",
+    "color": "Black"
+  },
+  {
+    "id": 7,
+    "name": "AirPods Pro",
+    "price": 249,
+    "brand": "Apple",
+    "color": "White"
+  },
+  {
+    "id": 8,
+    "name": "Galaxy Watch 6",
+    "price": 299,
+    "brand": "Samsung",
+    "color": "Black"
+  },
+  {
+    "id": 9,
+    "name": "PlayStation 5",
+    "price": 499,
+    "brand": "Sony",
+    "color": "White"
+  },
+  {
+    "id": 10,
+    "name": "Xbox Series X",
+    "price": 499,
+    "brand": "Microsoft",
+    "color": "Black"
+  },
+  {
+    "id": 11,
+    "name": "iPad Pro",
+    "price": 999,
+    "brand": "Apple",
+    "color": "Silver"
+  },
+  {
+    "id": 12,
+    "name": "Surface Laptop 5",
+    "price": 999,
+    "brand": "Microsoft",
+    "color": "Platinum"
+  }
+]
