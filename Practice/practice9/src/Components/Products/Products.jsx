@@ -11,7 +11,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div>
+    <div className="grid grid-cols-3 gap-6">
       {productsData.map((singleProduct) => (
         <Product key={singleProduct.id} singleProduct={singleProduct}></Product>
       ))}
