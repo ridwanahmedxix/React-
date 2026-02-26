@@ -8,8 +8,8 @@ const Product = ({ singleData }) => {
       <p> Id - {id} </p>
       <p> Name - {name} </p>
       <p> Price - {price} </p>
-      <p> Price - {brand} </p>
-      <p> Price - {color} </p>
+      <p> Brand - {brand} </p>
+      <p> Color - {color} </p>
       <button className="bg-purple-500 py-2 px-4 mt-4 "> More Info </button>
     </div>
   );
