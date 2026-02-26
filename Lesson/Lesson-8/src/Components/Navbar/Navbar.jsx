@@ -8,7 +8,7 @@ const Navbar = () => {
         {" "}
         Home{" "}
       </Link>
-      <Link to={""} className="ml-3 text-3xl">
+      <Link to={"about"} className="ml-3 text-3xl">
         {" "}
         About{" "}
       </Link>
