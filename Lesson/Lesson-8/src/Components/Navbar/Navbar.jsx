@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="bg-green-300 px-5 py-4 ">
-      <Link to={""} className="ml-3 text-3xl">
+    <div className="bg-green-300 px-5 py-4 rounded-[30px] ">
+      <Link to={"home"} className="ml-3 text-3xl">
         {" "}
         Home{" "}
       </Link>
