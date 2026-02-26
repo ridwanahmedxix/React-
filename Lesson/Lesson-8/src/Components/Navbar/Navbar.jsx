@@ -12,7 +12,7 @@ const Navbar = () => {
         {" "}
         About{" "}
       </Link>
-      <Link to={""} className="ml-3 text-3xl">
+      <Link to={"/product"} className="ml-3 text-3xl">
         {" "}
         Products{" "}
       </Link>
