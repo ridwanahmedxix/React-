@@ -16,7 +16,7 @@ const Navbar = () => {
         {" "}
         Products{" "}
       </Link>
-      <Link to={""} className="ml-3 text-3xl">
+      <Link to={"contact"} className="ml-3 text-3xl">
         {" "}
         Contact{" "}
       </Link>
