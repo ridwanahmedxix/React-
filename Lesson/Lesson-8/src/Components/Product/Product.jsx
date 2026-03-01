@@ -9,6 +9,7 @@ const Product = ({ product }) => {
       <p> Name - {name} </p>
       <p> Email - {email} </p>
       <p> Address - {address.city} </p>
+      <button className="bg-red-400 py-2 px-4 mt-3 rounded">More Info</button>
     </div>
   );
 };
