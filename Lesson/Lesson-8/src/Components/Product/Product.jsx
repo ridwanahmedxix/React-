@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Product = ({ product }) => {
   const { id, name, email, address } = product;
@@ -9,7 +10,9 @@ const Product = ({ product }) => {
       <p> Name - {name} </p>
       <p> Email - {email} </p>
       <p> Address - {address.city} </p>
-      <button className="bg-red-400 py-2 px-4 mt-3 rounded">More Info</button>
+      <Link>
+        <button className="bg-red-400 py-2 px-4 mt-3 rounded">More Info</button>
+      </Link>
     </div>
   );
 };
