@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         element: <Products></Products>,
       },
       {
-        path: "/product/:",
+        path: "/product/:productID",
         loader: ({ params }) =>
           fetch(
             `https://jsonplaceholder.typicode.com/users/${params.productID}`,
