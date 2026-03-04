@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Home/Home.jsx";
 import Appex from "./Components/Appex/Appex.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
+import MoreInfo from "./Components/MoreInfo/MoreInfo.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,12 @@ const router = createBrowserRouter([
         path: "/product",
         element: <Appex></Appex>,
       },
+
+      {
+        path: "/product/productID",
+        element: <MoreInfo></MoreInfo>,
+      },
+
       {
         path: "/contact",
         element: <Contact></Contact>,
