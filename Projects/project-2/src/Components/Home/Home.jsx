@@ -13,7 +13,6 @@ const Home = () => {
         earum architecto quidem aspernatur laboriosam. Tenetur nisi impedit
         aperiam ipsum ad.
       </p>
-      <p>Lorem ipsum dolor sit amet.</p>
     </div>
   );
 };
