@@ -16,7 +16,7 @@ const ConditionalStyle = () => {
         MAKE IT {isSpecial ? " NORMAL " : " SPECIAL "}
       </button>
       <div
-        className={`border-[3px] border-gray-950 p-[15px] m-[10px]  ${isSpecial ? "bg-pink-500 text-white" : "bg-stone-400"}  `}
+        className={`border-[3px] border-gray-950 p-[15px] m-[10px]  ${isSpecial ? "bg-pink-500 text-white p-[30px] " : "bg-stone-400"}  `}
       >
         This Is A {isSpecial ? "Normal" : "Special"} Style
       </div>
