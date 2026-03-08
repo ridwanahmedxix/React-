@@ -3,7 +3,9 @@ import React, { useEffect, useState } from "react";
 const Products = () => {
   const [productData, setProductData] = useState([]);
   useEffect(() => {
-    fetch("products.json");
+    fetch("products.json")
+      .then((res) => res.json())
+      .then((data) => setProductData(data));
   }, []);
 
   return (
