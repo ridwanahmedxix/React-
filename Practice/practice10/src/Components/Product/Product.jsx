@@ -1,7 +1,7 @@
 import React from "react";
 
-const Product = ({ productData }) => {
-  const { id, name, price, brand, color } = productData;
+const Product = ({ singleData }) => {
+  const { id, name, price, brand, color } = singleData;
 
   return (
     <div>

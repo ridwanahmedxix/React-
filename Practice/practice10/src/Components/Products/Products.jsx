@@ -11,7 +11,9 @@ const Products = () => {
 
   return (
     <div>
-      <Product key={productData} productData={productData}></Product>
+      {productData.map((singleData) => (
+        <Product key={singleData.id} singleData={singleData}></Product>
+      ))}
     </div>
   );
 };
