@@ -1,13 +1,12 @@
 import React from "react";
+import SinglePData from "../SinglePData/SinglePData";
 
-const PlaceMent = () => {
+const PlaceMent = ({ card }) => {
   return (
     <div>
-      <p> Id - {id} </p>
-      <p> Name - {name} </p>
-      <p> Price - {price} </p>
-      <p> Brand - {brand} </p>
-      <p> Color - {color} </p>
+      {card.map((sideData) => (
+        <SinglePData key={sideData.id} sideData={sideData}></SinglePData>
+      ))}
     </div>
   );
 };
