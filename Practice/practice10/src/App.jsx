@@ -5,16 +5,15 @@ import PlaceMent from "./Components/PlaceMent/PlaceMent";
 
 function App() {
   const [card, setCard] = useState([]);
-
-  const addToCard = (singleData) => {
-    const newCard = [...card, singleData];
+  const addToCard = (singleDataReceve) => {
+    const newCard = [...card, singleDataReceve];
     setCard(newCard);
   };
 
   return (
-    <div>
+    <div className="flex gap-5">
       <Products addToCard={addToCard}></Products>
-      <PlaceMent></PlaceMent>
+      <PlaceMent card={card}></PlaceMent>
     </div>
   );
 }
