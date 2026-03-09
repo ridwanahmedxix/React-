@@ -10,6 +10,7 @@ const Product = ({ singleData }) => {
       <p> Price - {price} </p>
       <p> Brand - {brand} </p>
       <p> Color - {color} </p>
+      <button>Add To Card</button>
     </div>
   );
 };
