@@ -1,6 +1,6 @@
 import React from "react";
 
-const Product = ({ singleData }) => {
+const Product = ({ singleData, addToCard }) => {
   const { id, name, price, brand, color } = singleData;
 
   return (
@@ -10,7 +10,10 @@ const Product = ({ singleData }) => {
       <p> Price - {price} </p>
       <p> Brand - {brand} </p>
       <p> Color - {color} </p>
-      <button className="bg-green-400 py-3 px-6 mt-2 rounded-[10px]  hover:bg-green-500 transition ">
+      <button
+        onClick={() => addToCard(singleData)}
+        className="bg-green-400 py-3 px-6 mt-2 rounded-[10px]  hover:bg-green-500 transition "
+      >
         Add To Card
       </button>
     </div>

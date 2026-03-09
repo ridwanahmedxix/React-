@@ -6,9 +6,14 @@ import PlaceMent from "./Components/PlaceMent/PlaceMent";
 function App() {
   const [card, setCard] = useState([]);
 
+  const addToCard = (singleData) => {
+    const newCard = [...card, singleData];
+    setCard(newCard);
+  };
+
   return (
     <div>
-      <Products></Products>
+      <Products addToCard={addToCard}></Products>
       <PlaceMent></PlaceMent>
     </div>
   );
