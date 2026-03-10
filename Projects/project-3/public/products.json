@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 850,
+    "brand": "Logitech",
+    "color": "Black"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 3200,
+    "brand": "Redragon",
+    "color": "White"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "price": 2500,
+    "brand": "HyperX",
+    "color": "Red"
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "price": 4500,
+    "brand": "Xiaomi",
+    "color": "Black"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 1800,
+    "brand": "JBL",
+    "color": "Blue"
+  },
+  {
+    "id": 6,
+    "name": "Power Bank 20000mAh",
+    "price": 1500,
+    "brand": "Anker",
+    "color": "Black"
+  },
+  {
+    "id": 7,
+    "name": "USB-C Charger",
+    "price": 1200,
+    "brand": "Samsung",
+    "color": "White"
+  },
+  {
+    "id": 8,
+    "name": "Laptop Backpack",
+    "price": 2200,
+    "brand": "HP",
+    "color": "Gray"
+  },
+  {
+    "id": 9,
+    "name": "LED Monitor 24 Inch",
+    "price": 13500,
+    "brand": "Dell",
+    "color": "Black"
+  },
+  {
+    "id": 10,
+    "name": "External Hard Drive 1TB",
+    "price": 5500,
+    "brand": "Seagate",
+    "color": "Black"
+  },
+  {
+    "id": 11,
+    "name": "Wireless Earbuds",
+    "price": 2700,
+    "brand": "Realme",
+    "color": "White"
+  },
+  {
+    "id": 12,
+    "name": "Tablet 10 Inch",
+    "price": 16500,
+    "brand": "Lenovo",
+    "color": "Silver"
+  }
+]
