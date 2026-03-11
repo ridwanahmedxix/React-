@@ -1,6 +1,6 @@
 import React from "react";
 
-const PlaceMent = () => {
+const PlaceMent = ({ cardInfo }) => {
   return (
     <div className="ml-10">
       <h1>PlaceMent</h1>
