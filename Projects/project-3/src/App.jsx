@@ -6,11 +6,13 @@ import PlaceMent from "./Components/PlaceMent/PlaceMent";
 function App() {
   const [cardInfo, setCardInfo] = useState([]);
 
-  const AddToCard = () => {};
+  const AddToCard = () => {
+    const newCardInfo = [...cardInfo];
+  };
 
   return (
     <div className="flex ">
-      <Products></Products>
+      <Products AddToCard={AddToCard}></Products>
       <PlaceMent></PlaceMent>
     </div>
   );
