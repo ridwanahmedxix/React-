@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
-import ConditionalStyle from "./Components/ConditionalStyle/ConditionalStyle";
 
 function App() {
   return (
     <div>
-      <ConditionalStyle></ConditionalStyle>
+      <h1>Hello World</h1>
     </div>
   );
 }
