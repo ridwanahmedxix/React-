@@ -3,9 +3,9 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <h1>Welcome To The Home Page</h1>
+      <h1 className="text-4xl p-5">Welcome To The Home Page</h1>
       <br />
-      <p>
+      <p className="font-mono text-2xl">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus
         repellendus eum expedita! Fugiat, reprehenderit maiores perferendis rem
         illo similique voluptatum! Aliquam reprehenderit repellat in porro
