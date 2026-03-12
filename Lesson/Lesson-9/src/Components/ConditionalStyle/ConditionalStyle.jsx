@@ -11,11 +11,19 @@ const ConditionalStyle = () => {
     <div>
       <button
         onClick={toggleButton}
-        className="bg-purple-600 text-white py-2 px-4 text-2xl rounded hover:bg-purple-700"
+        className="bg-purple-600 text-white py-2 px-4 text-2xl my-5 rounded hover:bg-purple-700"
       >
-        {isSpecial ? " Make It Normal " : " Make It Special "}
+        Make It {isSpecial ? " Normal " : " Special "}
       </button>
-      <div>This is a Normal Section</div>
+      <div
+        className={
+          isSpecial
+            ? "bg-green-500 rounded-[10PX] text-2xl text-white p-4"
+            : "bg-red-500"
+        }
+      >
+        This is a {isSpecial ? "Special" : "Normal"} Section
+      </div>
     </div>
   );
 };
