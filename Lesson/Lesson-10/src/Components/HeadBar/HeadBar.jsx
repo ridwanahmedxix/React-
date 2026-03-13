@@ -1,10 +1,9 @@
 import React from "react";
 
-const HeadBar = () => {
+const HeadBar = ({ count }) => {
   return (
     <div>
-      <h1>HeadBar</h1>
-      <button> Click Me - HeadBar </button>
+      <button> Click Me - {count} </button>
     </div>
   );
 };

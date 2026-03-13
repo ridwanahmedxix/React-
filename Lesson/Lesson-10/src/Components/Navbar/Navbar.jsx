@@ -1,10 +1,11 @@
 import React from "react";
+import HeadBar from "../HeadBar/HeadBar";
 
-const Navbar = () => {
+const Navbar = ({ count }) => {
   return (
     <div>
-      <h1>Navbar</h1>
-      <button> Click Me - Navbar </button>
+      <HeadBar count={count}></HeadBar>
+      <button> Click Me - {count} </button>
     </div>
   );
 };
