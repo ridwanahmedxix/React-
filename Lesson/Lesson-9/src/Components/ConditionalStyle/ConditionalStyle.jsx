@@ -16,6 +16,8 @@ const ConditionalStyle = () => {
       >
         Make It {isSpecial ? "Normal" : "Special"}
       </button>
+
+      <div>This Is A {isSpecial ? "Special" : "Normal"} Section </div>
     </div>
   );
 };
