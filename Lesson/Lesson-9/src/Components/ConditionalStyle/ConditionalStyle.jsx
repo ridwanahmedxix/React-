@@ -4,6 +4,7 @@ const ConditionalStyle = () => {
   const [isSpecial, setIsSpecial] = useState(false);
 
   const toggleButton = () => {
+    console.log("Clicked");
     setIsSpecial(!isSpecial);
   };
 
