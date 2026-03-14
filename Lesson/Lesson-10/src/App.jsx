@@ -13,10 +13,10 @@ function App() {
         Count Number {count}{" "}
       </button>
 
-      {/* <p>
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
         nulla.
-      </p> */}
+      </p>
     </div>
   );
 }
