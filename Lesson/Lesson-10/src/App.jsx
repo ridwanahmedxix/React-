@@ -12,6 +12,11 @@ function App() {
       >
         Count Number {count}{" "}
       </button>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+        nulla.
+      </p>
     </div>
   );
 }
