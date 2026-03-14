@@ -6,7 +6,12 @@ function App() {
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Count Number {count} </button>
+      <button
+        className="bg-green-400 text-white py-3 px-5 rounded-[15px]  "
+        onClick={() => setCount(count + 1)}
+      >
+        Count Number {count}{" "}
+      </button>
     </div>
   );
 }
