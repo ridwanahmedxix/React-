@@ -6,8 +6,7 @@ const Navbar = ({ count }) => {
     <div>
       <HeadBar></HeadBar>
       <button className="bg-red-400 text-white my-5 py-3 px-5 rounded-[15px]  ">
-        {" "}
-        Click Me - {count}{" "}
+        Navbar - {count}
       </button>
     </div>
   );
