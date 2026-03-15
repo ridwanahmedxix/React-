@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <button
-        className="bg-green-400 text-white my-5 py-3 px-5 rounded-[15px]  "
+        className="bg-green-400  hover:bg-gray-500 transition text-white my-5 py-3 px-5 rounded-[15px]  "
         onClick={() => setCount(count + 1)}
       >
         Count Number {count}{" "}

@@ -5,7 +5,7 @@ const Navbar = ({ count }) => {
   return (
     <div>
       <HeadBar></HeadBar>
-      <button className="bg-red-400 text-white my-5 py-3 px-5 rounded-[15px]  ">
+      <button className="bg-red-400  hover:bg-gray-500 transition text-white my-5 py-3 px-5 rounded-[15px]  ">
         Navbar - {count}
       </button>
     </div>
