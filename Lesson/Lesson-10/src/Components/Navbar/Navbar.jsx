@@ -4,8 +4,11 @@ import HeadBar from "../HeadBar/HeadBar";
 const Navbar = ({ count }) => {
   return (
     <div>
-      <HeadBar count={count}></HeadBar>
-      <button> Click Me - {count} </button>
+      <HeadBar></HeadBar>
+      <button className="bg-red-400 text-white my-5 py-3 px-5 rounded-[15px]  ">
+        {" "}
+        Click Me - {count}{" "}
+      </button>
     </div>
   );
 };
