@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <div>
       <HeadBar></HeadBar>
-      <button>Navbar Button </button>
+      <button className="bg-yellow-400 hover:bg-slate-600 transition my-5 text-white py-3 px-5 text-2xl rounded-[15px]">
+        Navbar Button{" "}
+      </button>
     </div>
   );
 };
