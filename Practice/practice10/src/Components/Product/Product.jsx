@@ -10,6 +10,7 @@ const Product = ({ singleProduct }) => {
       <p> Price - {price} </p>
       <p> Color - {color} </p>
       <p> Brand - {brand} </p>
+      <button>Click Me </button>
     </div>
   );
 };
