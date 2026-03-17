@@ -6,9 +6,9 @@ const Navbar = () => {
     <div>
       <HeadBar></HeadBar>
       <button>Navbar</button>
-      <p>
+      {/* <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dolore!
-      </p>
+      </p> */}
     </div>
   );
 };
