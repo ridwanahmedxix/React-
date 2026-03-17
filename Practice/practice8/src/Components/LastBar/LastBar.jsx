@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
-import { ContextCount } from "../../App";
+import { CountContext } from "../../App";
 
 const LastBar = () => {
-  const countState = useContext(ContextCount);
+  const countState = useContext(CountContext);
 
   return (
     <div>
-      <button className="bg-purple-500 hover:bg-slate-600 transition my-5 text-white py-3 px-5 text-2xl rounded-[15px]">
-        LastBar - {countState}
+      <button className="bg-blue-400 hover:bg-slate-600 transition my-5 text-white py-3 px-5 text-2xl rounded-[15px]">
+        LastBar - {countState}{" "}
       </button>
     </div>
   );
