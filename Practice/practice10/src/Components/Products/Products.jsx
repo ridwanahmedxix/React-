@@ -5,7 +5,7 @@ const Products = () => {
   const [singleData, setSingleData] = useState([]);
   useEffect(() => {
     fetch("products.json")
-      .then((res) => res.json)
+      .then((res) => res.json())
       .then((data) => setSingleData(data));
   }, []);
 
