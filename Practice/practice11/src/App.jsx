@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Products from "./Components/Products/Products";
 
 function App() {
+  const [singleData, setSingleData] = useState([]);
+  const AddToCard = (singleProductRecive) => {
+    const newSingleData = [...singleData, singleProductRecive];
+    setSingleData(newSingleData);
+  };
+
   return (
     <div>
-      <Products></Products>
+      <Products AddToCard={AddToCard}></Products>
     </div>
   );
 }
