@@ -11,7 +11,7 @@ const Product = ({ singleProduct }) => {
       <p> Color - {color} </p>
       <p> Brand - {brand} </p>
       <button
-        onClick={() => AddToCard(singleProduct)}
+        onClick={() => AddToCart(singleProduct)}
         className="bg-purple-500 text-white py-2 px-4 rounded-[10px] mt-3 hover:bg-purple-600 transition "
       >
         Add To Card

@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="flex gap-5">
       <Products AddToCard={AddToCard}></Products>
-      <PlaceMent></PlaceMent>
+      <PlaceMent singleData={singleData}></PlaceMent>
     </div>
   );
 }
