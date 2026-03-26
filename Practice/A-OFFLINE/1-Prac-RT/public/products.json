@@ -1,86 +1,86 @@
 [
   {
     "id": "1",
-    "name": "Elitebook",
+    "name": "Elitebook 840 G5",
     "price": "52000",
     "brand": "HP",
     "color": "Black"
   },
   {
     "id": "2",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
+    "name": "ThinkPad X1 Carbon",
+    "price": "95000",
+    "brand": "Lenovo",
     "color": "Black"
   },
   {
     "id": "3",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "name": "MacBook Air M1",
+    "price": "105000",
+    "brand": "Apple",
+    "color": "Silver"
   },
   {
     "id": "4",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "name": "Inspiron 15",
+    "price": "60000",
+    "brand": "Dell",
+    "color": "Gray"
   },
   {
     "id": "5",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "name": "ROG Zephyrus G14",
+    "price": "130000",
+    "brand": "Asus",
+    "color": "White"
   },
   {
     "id": "6",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
+    "name": "Acer Aspire 5",
+    "price": "55000",
+    "brand": "Acer",
     "color": "Black"
   },
   {
     "id": "7",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "name": "Surface Laptop 4",
+    "price": "115000",
+    "brand": "Microsoft",
+    "color": "Platinum"
   },
   {
     "id": "8",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "name": "IdeaPad Slim 3",
+    "price": "48000",
+    "brand": "Lenovo",
+    "color": "Blue"
   },
   {
     "id": "9",
-    "name": "Elitebook",
-    "price": "52000",
+    "name": "Pavilion 14",
+    "price": "65000",
     "brand": "HP",
-    "color": "Black"
+    "color": "Silver"
   },
   {
     "id": "10",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "name": "MacBook Pro M2",
+    "price": "160000",
+    "brand": "Apple",
+    "color": "Space Gray"
   },
   {
     "id": "11",
-    "name": "Elitebook",
-    "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "name": "Dell XPS 13",
+    "price": "140000",
+    "brand": "Dell",
+    "color": "White"
   },
   {
     "id": "12",
-    "name": "Elitebook",
+    "name": "Asus VivoBook 15",
     "price": "52000",
-    "brand": "HP",
-    "color": "Black"
+    "brand": "Asus",
+    "color": "Gray"
   }
 ]

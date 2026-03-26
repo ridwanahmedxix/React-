@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Products = () => {
   const [singleData, setSingleData] = useState([]);
+  useEffect(() => {
+    fetch("products.json");
+  }, []);
 
   return (
     <div>
