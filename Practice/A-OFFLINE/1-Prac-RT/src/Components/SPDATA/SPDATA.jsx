@@ -1,7 +1,7 @@
 import React from "react";
 
-const SPDATA = ({ SPDATA }) => {
-  const { id, name, price, brand, color } = SPDATA;
+const SPDATA = ({ DATA }) => {
+  const { id, name, price, brand, color } = DATA;
 
   return (
     <div>
