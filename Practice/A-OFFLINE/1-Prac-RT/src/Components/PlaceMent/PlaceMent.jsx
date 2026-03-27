@@ -1,9 +1,12 @@
 import React from "react";
+import SPDATA from "../SPDATA/SPDATA";
 
 const PlaceMent = ({ card }) => {
   return (
     <div>
-      <h1>hhhh</h1>
+      {card.map((singlePData) => (
+        <SPDATA key={singlePData.id} singlePData={singlePData}></SPDATA>
+      ))}
     </div>
   );
 };
