@@ -4,7 +4,7 @@ const Product = ({ singleProduct }) => {
   const { id, name, price, color, brand } = singleProduct;
 
   return (
-    <div>
+    <div className="border-[3px] border-blue-500 py-4 px-2 rounded-[10px] ">
       <p> Id - {id} </p>
       <p> Name - {name} </p>
       <p> Price - {price} </p>
