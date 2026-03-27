@@ -10,6 +10,9 @@ const Product = ({ singleProduct }) => {
       <p> Price - {price} </p>
       <p> Color - {color} </p>
       <p> Brand - {brand} </p>
+      <button className="bg-blue-500 text-white py-2 px-3 mt-2 rounded-[8px] hover:bg-blue-600 transition ">
+        Add To Card
+      </button>
     </div>
   );
 };
