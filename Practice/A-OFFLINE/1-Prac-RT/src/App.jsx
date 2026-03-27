@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <Products></Products>
+      <Products AddToCard={AddToCard}></Products>
     </div>
   );
 }
