@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Products from "../Products/Products";
 import PlaceMent from "../PlaceMent/PlaceMent";
 
@@ -11,7 +11,7 @@ const Appex = () => {
   };
 
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 text-center ">
       <Products AddToCard={AddToCard}></Products>
       <PlaceMent card={card}></PlaceMent>
     </div>
