@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.jsx";
-import Appex from "./Components/Appex/Appex.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      {/* <Appex></Appex> */}
       <Navbar></Navbar>
+      <Outlet></Outlet>
     </div>
   );
 }
