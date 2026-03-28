@@ -11,12 +11,14 @@ function App() {
     <div>
       <FirstNav></FirstNav>
 
-      <button
-        className="bg-green-400 py-3 px-4 text-3xl rounded "
-        onClick={() => setCount(count + 1)}
-      >
-        Counter - {count}
-      </button>
+      <CountContext.Provider value={count}>
+        <button
+          className="bg-green-400 py-3 px-4 text-3xl rounded "
+          onClick={() => setCount(count + 1)}
+        >
+          Counter - {count}
+        </button>
+      </CountContext.Provider>
     </div>
   );
 }
