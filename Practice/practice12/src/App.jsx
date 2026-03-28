@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <CountContext.Provider value={count}>
+      <CountContext.Provider value={[count, setCount]}>
         <FirstNav></FirstNav>
         <button
           className="bg-blue-400 py-3 px-4 text-3xl my-3 rounded "
