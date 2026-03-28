@@ -9,9 +9,8 @@ function App() {
 
   return (
     <div>
-      <FirstNav></FirstNav>
-
       <CountContext.Provider value={count}>
+        <FirstNav></FirstNav>
         <button
           className="bg-green-400 py-3 px-4 text-3xl rounded "
           onClick={() => setCount(count + 1)}
