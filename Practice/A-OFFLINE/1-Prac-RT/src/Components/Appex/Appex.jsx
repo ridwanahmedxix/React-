@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { createContext, useState } from "react";
 import Products from "../Products/Products";
 import PlaceMent from "../PlaceMent/PlaceMent";
+
+export const AddContext = createContext();
 
 const Appex = () => {
   const [card, setCard] = useState([]);
@@ -12,8 +14,10 @@ const Appex = () => {
 
   return (
     <div className="flex gap-4 text-center ">
-      <Products AddToCard={AddToCard}></Products>
-      <PlaceMent card={card}></PlaceMent>
+      <AddContext.Provider value={{ AddToCard, card }}>
+        <Products></Products>
+        <PlaceMent></PlaceMent>
+      </AddContext.Provider>
     </div>
   );
 };

@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Product from "../Product/Product";
 
 const Products = ({ AddToCard }) => {
+  const AddState = useContext(AddCon);
+
   const [singleData, setSingleData] = useState([]);
   useEffect(() => {
     fetch("products.json")
