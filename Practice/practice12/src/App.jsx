@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React, { createContext, useState } from "react";
 import "./App.css";
 import FirstNav from "./Components/FirstNav/FirstNav";
+
+export const CountContext = createContext();
+
 function App() {
   const [count, setCount] = useState(0);
 
