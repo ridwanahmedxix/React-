@@ -5,9 +5,12 @@ function App() {
 
   return (
     <div>
-      <h1 className="bg-red-500">Hello World</h1>
-
-      <button onClick={() => setCount(count + 1)}> Counter - {count} </button>
+      <button
+        className="bg-green-400 py-3 px-4 text-3xl rounded "
+        onClick={() => setCount(count + 1)}
+      >
+        Counter - {count}
+      </button>
     </div>
   );
 }
