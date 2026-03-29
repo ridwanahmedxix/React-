@@ -6,6 +6,7 @@ export const CountContext = createContext();
 
 function App() {
   const [count, setCount] = useState(0);
+  const [another, setAnother] = useState(10);
 
   return (
     <div>
