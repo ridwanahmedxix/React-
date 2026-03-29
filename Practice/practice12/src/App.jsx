@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <ContextOne.Provider value={dd}>
+      <ContextOne.Provider value={[dataa, setDataa]}>
         <FirstNav></FirstNav>
         <button className="bg-blue-400 py-3 px-4 text-3xl  my-4 rounded ">
           Main
