@@ -3,6 +3,7 @@ import "./App.css";
 import FirstNav from "./Components/FirstNav/FirstNav";
 
 export const CountContext = createContext();
+export const AnotherContext = createContext();
 
 function App() {
   const [count, setCount] = useState(0);
