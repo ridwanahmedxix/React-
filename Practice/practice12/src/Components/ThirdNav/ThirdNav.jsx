@@ -1,16 +1,10 @@
-import React, { useContext } from "react";
-import { CountContext } from "../../App";
+import React from "react";
 
 const ThirdNav = () => {
-  const [count, setCount] = useContext(CountContext);
-
   return (
     <div>
-      <button
-        onClick={() => setCount(count + 1)}
-        className="bg-yellow-400 py-3 px-4 text-3xl rounded "
-      >
-        ThirdNav - {count}
+      <button className="bg-purple-400 py-3 px-4  my-4 text-3xl rounded ">
+        ThirdNav
       </button>
     </div>
   );

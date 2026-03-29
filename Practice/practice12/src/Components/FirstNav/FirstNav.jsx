@@ -1,9 +1,13 @@
 import React from "react";
+import SecondNav from "../SecondNav/SecondNav";
 
 const FirstNav = () => {
   return (
     <div>
-      <button>FirstNav</button>
+      <SecondNav></SecondNav>
+      <button className="bg-yellow-400 py-3 px-4 text-3xl rounded ">
+        FirstNav
+      </button>
     </div>
   );
 };
