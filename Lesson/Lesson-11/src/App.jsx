@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import SubmitForm from "./Components/SubmitForm/SubmitForm";
 
 function App() {
   return (
     <div>
-      <h1 className="bg-red-600">Hello World</h1>
+      <h1>Hello Form</h1>
+
+      <SubmitForm></SubmitForm>
     </div>
   );
 }
