@@ -2,10 +2,13 @@ import { createContext, useState } from "react";
 
 export const ContextOne = createContext();
 
-export const Context1Provider = () => {
-  const [datA, setDatA] = useState("Ridwan Ahmed");
+export const Context1Provider = ({ children }) => {
+  const [datA, setDatA] = useState("Hello World");
 
-  return;
-
-  <h1>Hello World</h1>;
+  return (
+    <ContextOne.Provider value={[datA, setDatA]}>
+      {children}
+    </ContextOne.Provider>
+  );
 };
+rgb(0, 0, 0);
