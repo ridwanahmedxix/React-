@@ -1,9 +1,14 @@
 import React from "react";
 
 const SubmitForm = () => {
+  const submitForm = (e) => {
+    e.preventDefault();
+    console.log("Submited", e);
+  };
+
   return (
     <div>
-      <form action="">
+      <form onSubmit={submitForm}>
         <input type="text" name="" />
         <br />
         <br />
