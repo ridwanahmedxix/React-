@@ -2,7 +2,7 @@ import React from "react";
 
 const SubmitForm = () => {
   const submitForm = (e) => {
-    e.preventValue();
+    e.preventDefault();
     console.log(e.target.text.value);
     console.log(e.target.email.value);
     console.log(e.target.password.value);
