@@ -8,20 +8,34 @@ const SubmitForm = () => {
     console.log(name);
   };
 
-  const nameInput = (e) => {
-    setName(e.target.value);
-  };
-
   return (
     <div>
       <form onSubmit={HandleSubmitForm}>
-        <input onChange={nameInput} type="text" name="text" />
+        <input
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+          type="text"
+          name="text"
+        />
         <br />
         <br />
-        <input type="email" name="email" />
+        <input
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+          type="email"
+          name="email"
+        />
         <br />
         <br />
-        <input type="password" name="password" />
+        <input
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+          type="password"
+          name="password"
+        />
         <br />
         <br />
         <input type="submit" value="SUBMIT" />
