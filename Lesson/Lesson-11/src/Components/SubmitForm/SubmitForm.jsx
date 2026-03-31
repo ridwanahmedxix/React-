@@ -1,16 +1,21 @@
 import React from "react";
 
 const SubmitForm = () => {
+  const submitForm = (e) => {
+    e.preventValue();
+    console.log(e.target.text.value);
+  };
+
   return (
     <div>
       <form>
-        <input type="text" name="" />
+        <input type="text" name="text" />
         <br />
         <br />
-        <input type="email" name="" />
+        <input type="email" name="email" />
         <br />
         <br />
-        <input type="password" />
+        <input type="password" name="password" />
         <br />
         <br />
         <input type="submit" value="SUBMIT" />
