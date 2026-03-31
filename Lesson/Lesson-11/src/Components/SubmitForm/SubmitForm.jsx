@@ -4,11 +4,13 @@ const SubmitForm = () => {
   const submitForm = (e) => {
     e.preventValue();
     console.log(e.target.text.value);
+    console.log(e.target.email.value);
+    console.log(e.target.password.value);
   };
 
   return (
     <div>
-      <form>
+      <form onSubmit={submitForm}>
         <input type="text" name="text" />
         <br />
         <br />
