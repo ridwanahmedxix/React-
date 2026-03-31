@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const SubmitForm = () => {
+  const [name, setName] = useState("");
+
   const HandleSubmitForm = (e) => {
     e.preventDefault();
-    console.log(e);
+    console.log(name);
   };
 
   const nameInput = (e) => {
-    console.log(e.target.value);
+    setName(e.target.value);
   };
 
   return (
