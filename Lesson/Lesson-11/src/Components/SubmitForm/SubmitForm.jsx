@@ -16,6 +16,7 @@ const SubmitForm = () => {
     <div>
       <form onSubmit={HandleSubmitForm}>
         <input
+          required
           onChange={(e) => {
             setName(e.target.value);
           }}
@@ -25,6 +26,7 @@ const SubmitForm = () => {
         <br />
         <br />
         <input
+          required
           onChange={(e) => {
             setEmail(e.target.value);
           }}
@@ -34,6 +36,7 @@ const SubmitForm = () => {
         <br />
         <br />
         <input
+          required
           onChange={(e) => {
             setPassword(e.target.value);
           }}
