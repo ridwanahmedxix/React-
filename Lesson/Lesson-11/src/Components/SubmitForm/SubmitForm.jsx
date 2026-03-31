@@ -6,10 +6,14 @@ const SubmitForm = () => {
     console.log(e);
   };
 
+  const nameInput = (e) => {
+    console.log(e.target.value);
+  };
+
   return (
     <div>
       <form onSubmit={HandleSubmitForm}>
-        <input type="text" name="text" />
+        <input onChange={nameInput} type="text" name="text" />
         <br />
         <br />
         <input type="email" name="email" />
