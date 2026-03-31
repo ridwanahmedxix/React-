@@ -13,6 +13,7 @@ const SubmitForm = () => {
         <input type="password" />
         <br />
         <br />
+        <input type="submit" value="SUBMIT" />
       </form>
     </div>
   );
