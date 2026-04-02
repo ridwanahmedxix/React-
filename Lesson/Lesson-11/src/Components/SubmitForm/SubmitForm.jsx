@@ -1,20 +1,56 @@
 import React, { useRef, useState } from "react";
 
 const SubmitForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [pass, setPass] = useState("");
+  const [error, setError] = useState("");
+
+  const handleSubmitForm = (e) => {
+    e.preventDefault();
+
+    if (pass.length < 8) {
+      setError("Password must be 8 character ");
+    } else {
+      setPass("");
+      console.log(name);
+      console.log(email);
+      console.log(pass);
+    }
+  };
+
   return (
     <div>
-      <form onSubmit={HandleSubmitForm}>
-        <input type="text" name="text" />
+      <form onSubmit={handleSubmitForm}>
+        <input
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+          type="text"
+          name="text"
+        />
         <br />
         <br />
-        <input type="email" name="email" />
+        <input
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+          type="email"
+          name="email"
+        />
         <br />
         <br />
-        <input type="password" name="password" />
+        <input
+          onChange={(e) => {
+            setPass(e.target.value);
+          }}
+          type="password"
+          name="password"
+        />
         <br />
         <br />
 
-        <p> </p>
+        <p> {error} </p>
         <br />
 
         <input type="submit" value="SUBMIT" />
