@@ -9,8 +9,8 @@ const SubmitForm = () => {
   const HandleSubmitForm = (e) => {
     e.preventDefault();
 
-    if (pass.length < 8) {
-      setError("Password must be 8 character ");
+    if (pass.length < 6) {
+      setError("Password must be 6 character ");
     } else {
       setError("");
 
