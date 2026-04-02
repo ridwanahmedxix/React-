@@ -5,13 +5,19 @@ const SubmitForm = () => {
 
   const HandleSubmitForm = (e) => {
     e.preventDefault();
-    console.log();
+    console.log(name);
   };
 
   return (
     <div>
       <form onSubmit={HandleSubmitForm}>
-        <input type="text" name="text" />
+        <input
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+          type="text"
+          name="text"
+        />
         <br />
         <br />
         <input type="email" name="email" />
