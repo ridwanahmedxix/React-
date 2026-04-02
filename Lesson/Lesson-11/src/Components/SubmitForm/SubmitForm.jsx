@@ -10,11 +10,14 @@ const SubmitForm = () => {
     e.preventDefault();
 
     if (pass.length < 8) {
-    }
+      setError("Password must be 8 character ");
+    } else {
+      setError("");
 
-    console.log(name);
-    console.log(email);
-    console.log(pass);
+      console.log(name);
+      console.log(email);
+      console.log(pass);
+    }
   };
 
   return (
@@ -48,7 +51,7 @@ const SubmitForm = () => {
         <br />
         <br />
 
-        <p> </p>
+        <p> {error} </p>
         <br />
 
         <input type="submit" value="SUBMIT" />
