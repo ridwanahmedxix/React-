@@ -4,9 +4,14 @@ const SubmitForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const [error, setError] = useState("");
 
   const HandleSubmitForm = (e) => {
     e.preventDefault();
+
+    if (pass.length < 8) {
+    }
+
     console.log(name);
     console.log(email);
     console.log(pass);
