@@ -2,10 +2,12 @@ import React, { useRef, useState } from "react";
 
 const SubmitForm = () => {
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
 
   const HandleSubmitForm = (e) => {
     e.preventDefault();
     console.log(name);
+    console.log(email);
   };
 
   return (
@@ -20,7 +22,13 @@ const SubmitForm = () => {
         />
         <br />
         <br />
-        <input type="email" name="email" />
+        <input
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+          type="email"
+          name="email"
+        />
         <br />
         <br />
         <input type="password" name="password" />
