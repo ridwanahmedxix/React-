@@ -1,8 +1,11 @@
 import React, { useRef, useState } from "react";
 
 const SubmitForm = () => {
+  const [name, setName] = useState("");
+
   const HandleSubmitForm = (e) => {
     e.preventDefault();
+    console.log();
   };
 
   return (
