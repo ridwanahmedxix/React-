@@ -3,23 +3,18 @@ import React, { useRef, useState } from "react";
 const SubmitForm = () => {
   return (
     <div>
-      <form onSubmit={HandleSubmitForm}>
-        <input ref={nameRef} type="text" name="text" />
+      <form>
+        <input type="text" name="text" />
         <br />
         <br />
-        <input
-          ref={emailRef}
-          defaultValue={"example@gmail.com"}
-          type="email"
-          name="email"
-        />
+        <input type="email" name="email" />
         <br />
         <br />
-        <input ref={passRef} type="password" name="password" />
+        <input type="password" name="password" />
         <br />
         <br />
 
-        <p> {error} </p>
+        <p> </p>
         <br />
 
         <input type="submit" value="SUBMIT" />
