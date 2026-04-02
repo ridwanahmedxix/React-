@@ -3,11 +3,13 @@ import React, { useRef, useState } from "react";
 const SubmitForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [pass, setPass] = useState("");
 
   const HandleSubmitForm = (e) => {
     e.preventDefault();
     console.log(name);
     console.log(email);
+    console.log(pass);
   };
 
   return (
@@ -31,7 +33,13 @@ const SubmitForm = () => {
         />
         <br />
         <br />
-        <input type="password" name="password" />
+        <input
+          onChange={(e) => {
+            setPass(e.target.value);
+          }}
+          type="password"
+          name="password"
+        />
         <br />
         <br />
 
