@@ -1,6 +1,10 @@
 import React from "react";
 
 const SubmitForm = () => {
+  const handleSubmitForm = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div>
       <form onSubmit={handleSubmitForm}>
