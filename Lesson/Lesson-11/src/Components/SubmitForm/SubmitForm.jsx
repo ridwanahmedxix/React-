@@ -3,13 +3,21 @@ import React, { useRef, useState } from "react";
 const SubmitForm = () => {
   const nameRef = useRef("");
   const emailRef = useRef("");
-  const passRef = useState("");
+  const passRef = useRef("");
+  const [error, setError] = useState("");
 
   const handleSubmitForm = (e) => {
     e.preventDefault();
-    console.log(nameRef.current.value);
-    console.log(emailRef.current.value);
-    console.log(passRef.current.value);
+
+    if (passRef.current.value.length < 8) {
+      setError("Password must be 8 character ");
+    } else {
+      setError("");
+
+      console.log(nameRef.current.value);
+      console.log(emailRef.current.value);
+      console.log(passRef.current.value);
+    }
   };
 
   return (
@@ -18,14 +26,19 @@ const SubmitForm = () => {
         <input ref={nameRef} type="text" name="text" />
         <br />
         <br />
-        <input ref={emailRef} type="email" name="email" />
+        <input
+          ref={emailRef}
+          defaultValue={"ridwan@gmail.com"}
+          type="email"
+          name="email"
+        />
         <br />
         <br />
         <input ref={passRef} type="password" name="password" />
         <br />
         <br />
 
-        <p> </p>
+        <p> {error} </p>
         <br />
 
         <input type="submit" value="SUBMIT" />
