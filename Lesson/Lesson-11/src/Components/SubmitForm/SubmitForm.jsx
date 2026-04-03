@@ -1,11 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 
 const SubmitForm = () => {
   const nameRef = useRef("");
+  const emailRef = useRef("");
+  const passRef = useState("");
 
   const handleSubmitForm = (e) => {
     e.preventDefault();
     console.log(nameRef.current.value);
+    console.log(emailRef.current.value);
+    console.log(passRef.current.value);
   };
 
   return (
@@ -14,10 +18,10 @@ const SubmitForm = () => {
         <input ref={nameRef} type="text" name="text" />
         <br />
         <br />
-        <input type="email" name="email" />
+        <input ref={emailRef} type="email" name="email" />
         <br />
         <br />
-        <input type="password" name="password" />
+        <input ref={passRef} type="password" name="password" />
         <br />
         <br />
 
