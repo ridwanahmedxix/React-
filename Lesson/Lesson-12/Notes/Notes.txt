@@ -1,0 +1,91 @@
+import useCounter from "../../Hook/useCounter/useCounter";
+
+const Counter1 = () => {
+  const [count, increaseHandle, decreaseHandle] = useCounter();
+
+  return (
+    <div>
+      <h1> {count} </h1>
+      <button onClick={increaseHandle}> Increase </button>
+      <br />
+      <br />
+      <button onClick={decreaseHandle}> Decrease </button>
+    </div>
+  );
+};
+
+export default Counter1;
+
+----------------------------------
+import React from "react";
+import useCounter from "../../Hook/useCounter/useCounter";
+
+const Counter2 = () => {
+  const [count, increaseHandle, decreaseHandle] = useCounter();
+
+  return (
+    <div>
+      <h1> {count} </h1>
+      <button onClick={increaseHandle}> Increase </button>
+      <br />
+      <br />
+      <button onClick={decreaseHandle}> Decrease </button>
+    </div>
+  );
+};
+
+export default Counter2;
+
+------------------------------------
+import React, { useState } from "react";
+
+const useCounter = () => {
+  const [count, setCount] = useState(0);
+
+  const increaseHandle = () => {
+    setCount(count + 1);
+  };
+  const decreaseHandle = () => {
+    setCount(count - 1);
+  };
+
+  return [count, increaseHandle, decreaseHandle];
+};
+
+export default useCounter;
+
+
+
+
+======================================================================================================
+
+import React, { useMemo, useState } from "react";
+import "./App.css";
+
+function App() {
+  const [increase, setIncrease] = useState(0);
+  const [decrease, setDecrease] = useState(50);
+
+  const problem = useMemo(() => {
+    console.log("Something loading");
+    return increase * 10;
+  }, [increase]);
+
+  return (
+    <div>
+      <h1> {problem} </h1>
+
+      <br />
+      <button onClick={() => setIncrease(increase + 1)}>
+        Increase - {increase}
+      </button>
+      <br />
+      <br />
+      <button onClick={() => setDecrease(decrease - 1)}>
+        Decrease - {decrease}
+      </button>
+    </div>
+  );
+}
+
+export default App;
