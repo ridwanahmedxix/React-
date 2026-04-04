@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import useCounter from "../../Hook/useCounter/useCounter";
 
 const Counter1 = () => {
