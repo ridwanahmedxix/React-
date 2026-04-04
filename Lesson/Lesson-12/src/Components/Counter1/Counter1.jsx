@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import useCounter from "../../Hook/useCounter/useCounter";
 
 const Counter1 = () => {
+  const [count, increaseHandle, decreaseHandle] = useCounter();
+
   return (
     <div>
       <h1> {count} </h1>
