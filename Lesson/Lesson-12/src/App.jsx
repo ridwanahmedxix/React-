@@ -6,7 +6,8 @@ function App() {
   const [decrease, setDecrease] = useState(0);
   return (
     <div>
-      <button> Increase </button>
+      <button onClick={() => setIncrease(increase + 1)}> Increase </button>
+      <button onClick={() => setDecrease(decrease - 1)}> Decrease </button>
     </div>
   );
 }
