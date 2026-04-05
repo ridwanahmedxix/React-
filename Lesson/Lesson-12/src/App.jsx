@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [increase, setIncrease] = useState(0);
+  const [decrease, setDecrease] = useState(0);
   return (
     <div>
-      <h1>Hello </h1>
+      <button> Increase </button>
     </div>
   );
 }
