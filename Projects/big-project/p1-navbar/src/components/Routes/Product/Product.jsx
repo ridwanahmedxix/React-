@@ -1,6 +1,6 @@
 import React from "react";
 
-const Product = ({ singleData }) => {
+const Product = ({ singleData, AddToCart }) => {
   const { image, name, price, brand, color } = singleData;
 
   return (
@@ -11,9 +11,11 @@ const Product = ({ singleData }) => {
       <p> {brand} </p>
       <p> {color} </p>
 
-      <button className="bg-green-400 py-2 px-4 mt-2 text-white rounded-[10px] hover:bg-purple-500  ">
-        {" "}
-        Add To Cart{" "}
+      <button
+        onClick={() => AddToCart(singleData)}
+        className="bg-green-400 py-2 px-4 mt-2 text-white rounded-[10px] hover:bg-purple-500  "
+      >
+        Add To Cart
       </button>
     </div>
   );
