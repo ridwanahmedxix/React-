@@ -34,8 +34,8 @@ const Home = () => {
 
       {/* 2ND SECTION CODE START  */}
       <section className="my-8">
-        <div className=" block  sm:flex sm:justify-around">
-          <div className="bg-[#F1F1F1] max-w-[300px] w-[100%] py-4 px-5 ">
+        <div className="container mx-auto grid grid-cols-1 gap-3 justify-items-center sm:grid-cols-2 md:grid-cols-4">
+          <div className="bg-[#F1F1F1]  max-w-[300px] w-[100%] py-4 px-5 ">
             <div className="flex items-center">
               <span className="text-2xl mr-2">
                 <TbTruckDelivery />
@@ -45,32 +45,32 @@ const Home = () => {
             <p> Orders from all items</p>
           </div>
 
-          <div>
-            <div>
-              <span>
+          <div className="bg-[#F1F1F1] max-w-[300px] w-[100%] py-4 px-5 ">
+            <div className="flex items-center">
+              <span className="text-2xl mr-2">
                 <TbArrowForwardUpDouble />
               </span>
-              <h3> Return & Refund </h3>
+              <h3 className="font-medium"> Return & Refund </h3>
             </div>
             <p> Money back guarantee</p>
           </div>
 
-          <div>
-            <div>
-              <span>
+          <div className="bg-[#F1F1F1] max-w-[300px] w-[100%] py-4 px-5 ">
+            <div className="flex items-center">
+              <span className="text-2xl mr-2">
                 <TbDiscountFilled />
               </span>
-              <h3> Member Discount </h3>
+              <h3 className="font-medium"> Member Discount </h3>
             </div>
             <p> On order over $99</p>
           </div>
 
-          <div>
-            <div>
-              <span>
+          <div className="bg-[#F1F1F1] max-w-[300px] w-[100%] py-4 px-5 ">
+            <div className="flex items-center">
+              <span className="text-2xl mr-2">
                 <MdSupportAgent />
               </span>
-              <h3>Support 24/7 </h3>
+              <h3 className="font-medium">Support 24/7 </h3>
             </div>
             <p> Contact us 24 hours a day </p>
           </div>
