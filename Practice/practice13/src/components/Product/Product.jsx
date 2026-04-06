@@ -12,7 +12,7 @@ const Product = ({ singleData }) => {
         <p> {brand} </p>
         <p> {color} </p>
         <button className="bg-slate-600 text-white py-2 px-3 my-3">
-          Add To Card{" "}
+          Add To Card
         </button>
       </div>
     </div>
