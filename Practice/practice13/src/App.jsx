@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import Products from "./components/Products/Products";
-import PlaceMent from "./components/PlaceMent/PlaceMent";
+import Appex from "./components/Appex/Appex";
 
 function App() {
   return (
-    <div className="flex justify-between">
-      <Products></Products>
-      <PlaceMent></PlaceMent>
+    <div>
+      <Appex></Appex>
     </div>
   );
 }

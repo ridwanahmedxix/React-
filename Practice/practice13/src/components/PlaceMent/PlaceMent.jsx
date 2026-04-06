@@ -1,9 +1,12 @@
 import React from "react";
+import SingleLP from "../SingleLP/SingleLP";
 
-const PlaceMent = () => {
+const PlaceMent = ({ cart }) => {
   return (
     <div>
-      <h1>PlaceMent</h1>
+      {cart.map((SingleLaptop) => (
+        <SingleLP key={SingleLaptop.id} SingleLaptop={SingleLaptop}></SingleLP>
+      ))}
     </div>
   );
 };
