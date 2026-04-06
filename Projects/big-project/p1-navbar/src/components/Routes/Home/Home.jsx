@@ -1,4 +1,5 @@
 import React from "react";
+import { TbTruckDelivery } from "react-icons/tb";
 
 const Home = () => {
   return (
@@ -25,6 +26,49 @@ const Home = () => {
           />
         </div>
       </div>
+
+      {/* 2ND SECTION CODE START  */}
+      <section>
+        <div>
+          <div>
+            <div>
+              <span>
+                <TbTruckDelivery />
+              </span>
+              <h3> Free Delivery </h3>
+            </div>
+            <p> Orders from all items</p>
+          </div>
+          <div>
+            <div>
+              <span>
+                <TbTruckDelivery />
+              </span>
+              <h3> Free Delivery </h3>
+            </div>
+            <p> Orders from all items</p>
+          </div>
+
+          <div>
+            <div>
+              <span>
+                <TbTruckDelivery />
+              </span>
+              <h3> Free Delivery </h3>
+            </div>
+            <p> Orders from all items</p>
+          </div>
+          <div>
+            <div>
+              <span>
+                <TbTruckDelivery />
+              </span>
+              <h3> Free Delivery </h3>
+            </div>
+            <p> Orders from all items</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
