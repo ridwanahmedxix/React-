@@ -15,6 +15,7 @@ const Contact = () => {
             First name *
           </label>
           <input
+            required
             className=" border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500 mb-3 "
             id="fName"
             placeholder="First name"
@@ -25,6 +26,7 @@ const Contact = () => {
             Last name *
           </label>
           <input
+            required
             className=" border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500 mb-3 "
             id="lName"
             placeholder=" Last name"
@@ -35,6 +37,7 @@ const Contact = () => {
             Email *
           </label>
           <input
+            required
             className=" border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500 mb-3 "
             id="EmAil"
             placeholder=" example@gmail.com "
@@ -45,6 +48,7 @@ const Contact = () => {
             Phone number *
           </label>
           <input
+            required
             className=" border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500 mb-3 "
             id="pNumber"
             placeholder=" +880 180000000000  "
