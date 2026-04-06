@@ -5,8 +5,8 @@ import App from "./App.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Routes/Home/Home.jsx";
-import Products from "./components/Routes/Products/Products.jsx";
 import Contact from "./components/Routes/Contact/Contact.jsx";
+import Appex from "./components/Routes/Appex/Appex.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/products",
-        element: <Products></Products>,
+        element: <Appex></Appex>,
       },
       {
         path: "/contact",
