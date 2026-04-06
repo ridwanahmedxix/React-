@@ -1,9 +1,17 @@
 import React from "react";
 
-const Product = () => {
+const Product = ({ singleData }) => {
+  const { image, name, price, brand, color } = singleData;
+
   return (
     <div>
-      <h1>Product</h1>
+      <div>
+        <img src={image} width="300px" alt={name} />
+        <p> {name} </p>
+        <p> {price} </p>
+        <p> {brand} </p>
+        <p> {color} </p>
+      </div>
     </div>
   );
 };

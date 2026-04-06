@@ -5,7 +5,7 @@
     "price": 1200,
     "brand": "Dell",
     "color": "Silver",
-    "image": "https://picsum.photos/seed/laptop1/400/300"
+    "image": "./Images/lp-1.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "price": 1400,
     "brand": "Apple",
     "color": "Space Gray",
-    "image": "https://picsum.photos/seed/laptop2/400/300"
+    "image": "./Images/lp-2.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "price": 1350,
     "brand": "HP",
     "color": "Black",
-    "image": "https://picsum.photos/seed/laptop3/400/300"
+    "image": "./Images/lp-3.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "price": 1500,
     "brand": "Lenovo",
     "color": "Black",
-    "image": "https://picsum.photos/seed/laptop4/400/300"
+    "image": "./Images/lp-4.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "price": 1600,
     "brand": "Asus",
     "color": "White",
-    "image": "https://picsum.photos/seed/laptop5/400/300"
+    "image": "./Images/lp-5.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "price": 900,
     "brand": "Acer",
     "color": "Silver",
-    "image": "https://picsum.photos/seed/laptop6/400/300"
+    "image": "./Images/lp-6.jpg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "price": 1300,
     "brand": "Microsoft",
     "color": "Platinum",
-    "image": "https://picsum.photos/seed/laptop7/400/300"
+    "image": "./Images/lp-7.jpg"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "price": 2000,
     "brand": "Razer",
     "color": "Black",
-    "image": "https://picsum.photos/seed/laptop8/400/300"
+    "image": "./Images/lp-8.jpg"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "price": 1250,
     "brand": "Samsung",
     "color": "Gray",
-    "image": "https://picsum.photos/seed/laptop9/400/300"
+    "image": "./Images/lp-9.jpg"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "price": 1700,
     "brand": "LG",
     "color": "White",
-    "image": "https://picsum.photos/seed/laptop10/400/300"
+    "image": "./Images/lp-10.jpg"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "price": 1450,
     "brand": "Huawei",
     "color": "Green",
-    "image": "https://picsum.photos/seed/laptop11/400/300"
+    "image": "./Images/lp-11.jpg"
   },
   {
     "id": 12,
@@ -93,6 +93,6 @@
     "price": 1550,
     "brand": "MSI",
     "color": "Blue",
-    "image": "https://picsum.photos/seed/laptop12/400/300"
+    "image": "./Images/lp-12.jpg"
   }
 ]
