@@ -11,7 +11,7 @@ const Appex = () => {
   };
 
   return (
-    <div className="flex justify-between">
+    <div>
       <Products AddToCart={AddToCart}></Products>
       <PlaceMent key={cart.id} cart={cart}></PlaceMent>
     </div>
