@@ -1,5 +1,10 @@
 import React from "react";
-import { TbTruckDelivery } from "react-icons/tb";
+import {
+  TbTruckDelivery,
+  TbArrowForwardUpDouble,
+  TbDiscountFilled,
+} from "react-icons/tb";
+import { MdSupportAgent } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -28,18 +33,9 @@ const Home = () => {
       </div>
 
       {/* 2ND SECTION CODE START  */}
-      <section>
-        <div>
-          <div>
-            <div>
-              <span>
-                <TbTruckDelivery />
-              </span>
-              <h3> Free Delivery </h3>
-            </div>
-            <p> Orders from all items</p>
-          </div>
-          <div>
+      <section className="my-8">
+        <div className=" block  sm:flex sm:justify-around">
+          <div className="bg-[#F1F1F1] py-4 px-5 ">
             <div>
               <span>
                 <TbTruckDelivery />
@@ -52,20 +48,31 @@ const Home = () => {
           <div>
             <div>
               <span>
-                <TbTruckDelivery />
+                <TbArrowForwardUpDouble />
               </span>
-              <h3> Free Delivery </h3>
+              <h3> Return & Refund </h3>
             </div>
-            <p> Orders from all items</p>
+            <p> Money back guarantee</p>
           </div>
+
           <div>
             <div>
               <span>
-                <TbTruckDelivery />
+                <TbDiscountFilled />
               </span>
-              <h3> Free Delivery </h3>
+              <h3> Member Discount </h3>
             </div>
-            <p> Orders from all items</p>
+            <p> On order over $99</p>
+          </div>
+
+          <div>
+            <div>
+              <span>
+                <MdSupportAgent />
+              </span>
+              <h3>Support 24/7 </h3>
+            </div>
+            <p> Contact us 24 hours a day </p>
           </div>
         </div>
       </section>
