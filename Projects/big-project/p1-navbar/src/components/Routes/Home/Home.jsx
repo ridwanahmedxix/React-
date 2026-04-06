@@ -9,13 +9,13 @@ import { MdSupportAgent } from "react-icons/md";
 const Home = () => {
   return (
     <div>
-      <div className=" bg-[#E6F4F1] text-center md:text-left block pt-10 sm:pt-5 md:pt-10 lg:pt-0 sm:flex items-center sm:justify-between pb-8 px-10 ">
+      <div className=" bg-[#E6F4F1]  text-left block pt-10 sm:pt-5 md:pt-10 lg:pt-0 sm:flex items-center sm:justify-between pb-8 px-10 ">
         <div>
           <p className=" font-bold pb-2">Starting At 999dt</p>
-          <h2 className="  sm:text-4xl font-bold pb-3 ">
+          <h2 className=" text-3xl sm:text-4xl font-bold pb-3 ">
             The best notebook <br /> collection 2025
           </h2>
-          <p className=" sm:text-2xl font-medium">
+          <p className=" text-2xl font-medium">
             Exclusive offer <span className="text-red-500">-50%</span> off this
             week
           </p>
@@ -35,12 +35,12 @@ const Home = () => {
       {/* 2ND SECTION CODE START  */}
       <section className="my-8">
         <div className=" block  sm:flex sm:justify-around">
-          <div className="bg-[#F1F1F1] py-4 px-5 ">
-            <div>
-              <span>
+          <div className="bg-[#F1F1F1] max-w-[300px] w-[100%] py-4 px-5 ">
+            <div className="flex items-center">
+              <span className="text-2xl mr-2">
                 <TbTruckDelivery />
               </span>
-              <h3> Free Delivery </h3>
+              <h3 className="font-medium"> Free Delivery </h3>
             </div>
             <p> Orders from all items</p>
           </div>
