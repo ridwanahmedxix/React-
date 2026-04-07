@@ -81,8 +81,8 @@ const Home = () => {
 
       <section className="mt-10 my-16 text-center ">
         <div>
-          <h2>Latest News</h2>
-          <p>
+          <h2 className="font-bold text-3xl py-3">Latest News</h2>
+          <p className="text-[15px] text-gray-600 pb-8 ">
             But I must explain to you how all this mistaken idea of denouncing.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 sm:px-8 place-content-center  ">
