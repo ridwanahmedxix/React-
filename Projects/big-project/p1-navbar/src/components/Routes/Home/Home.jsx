@@ -85,9 +85,13 @@ const Home = () => {
           <p className="text-[15px] text-gray-600 pb-8 ">
             But I must explain to you how all this mistaken idea of denouncing.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 sm:px-8 place-content-center  ">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 sm:px-8 place-content-center mx-auto  ">
             <div>
-              <img src="/photo/blog-1.jpg" alt="" />
+              <img
+                className="max-w-[300px] w-[100%] mx-auto "
+                src="/photo/blog-1.jpg"
+                alt=""
+              />
               <div>
                 <h3>A guide to latest trends</h3>
                 <p>By Admin</p>
@@ -95,7 +99,11 @@ const Home = () => {
             </div>
 
             <div>
-              <img src="/photo/blog-2.jpg" alt="" />
+              <img
+                className="max-w-[300px] w-[100%] mx-auto "
+                src="/photo/blog-2.jpg"
+                alt=""
+              />
               <div>
                 <h3>Five ways to lead a happy life</h3>
                 <p>By Admin</p>
@@ -103,8 +111,12 @@ const Home = () => {
             </div>
 
             <div>
-              <img src="/photo/blog-3.jpg" alt="" />
-              <div>
+              <img
+                className="max-w-[300px] w-[100%] mx-auto "
+                src="/photo/blog-3.jpg"
+                alt=""
+              />
+              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 ">
                 <h3>Tips on having a happy life</h3>
                 <p>By Admin</p>
               </div>
