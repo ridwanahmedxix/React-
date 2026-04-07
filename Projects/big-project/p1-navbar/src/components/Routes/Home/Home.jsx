@@ -79,13 +79,13 @@ const Home = () => {
 
       {/* THIRD SECTION CODE START   */}
 
-      <section className="mt-10 my-16">
+      <section className="mt-10 my-16 text-center ">
         <div>
           <h2>Latest News</h2>
           <p>
             But I must explain to you how all this mistaken idea of denouncing.
           </p>
-          <div className="grid  md:grid-cols-3">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 sm:px-8 place-content-center  ">
             <div>
               <img src="/photo/blog-1.jpg" alt="" />
               <div>
