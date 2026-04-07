@@ -88,11 +88,11 @@ const Home = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 sm:px-8 place-content-center mx-auto  ">
             <div>
               <img
-                className="max-w-[300px] w-[100%] mx-auto "
+                className="max-w-[300px] w-full mx-auto overflow-hidden transition-transform duration-300 hover:scale-110"
                 src="/photo/blog-1.jpg"
                 alt=""
               />
-              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 ">
+              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 mt-2 mb-8 ">
                 <h3 className="font-medium text-[17px] pt-2 pb-1 ">
                   A guide to latest trends
                 </h3>
@@ -102,11 +102,11 @@ const Home = () => {
 
             <div>
               <img
-                className="max-w-[300px] w-[100%] mx-auto "
+                className="max-w-[300px] w-full mx-auto overflow-hidden transition-transform duration-300 hover:scale-110"
                 src="/photo/blog-2.jpg"
                 alt=""
               />
-              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 ">
+              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 mt-2 mb-8 ">
                 <h3 className="font-medium text-[17px] pt-2 pb-1 ">
                   Five ways to lead a happy life
                 </h3>
@@ -116,11 +116,11 @@ const Home = () => {
 
             <div>
               <img
-                className="max-w-[300px] w-[100%] mx-auto "
+                className="max-w-[300px] w-full mx-auto overflow-hidden transition-transform duration-300 hover:scale-110"
                 src="/photo/blog-3.jpg"
                 alt=""
               />
-              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 ">
+              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 mt-2 mb-8 ">
                 <h3 className="font-medium text-[17px] pt-2 pb-1 ">
                   Tips on having a happy life
                 </h3>
