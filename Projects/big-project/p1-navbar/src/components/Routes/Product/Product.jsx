@@ -13,11 +13,11 @@ const Product = ({ singleData, AddToCart }) => {
 
       <button
         onClick={() => AddToCart(singleData)}
-        className="relative inline-block px-5 py-2.5 mt-2 font-medium text-green-600 bg-green-100 rounded-[10px] overflow-hidden group"
+        className="relative px-5 py-2.5 mt-2 overflow-hidden rounded bg-green-500 text-white group transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 hover:ring-2 hover:ring-offset-2 hover:ring-green-400"
       >
-        <span className="absolute top-0 left-0 w-full h-0 bg-purple-500 opacity-90 transition-all duration-300 ease-out group-hover:h-full"></span>
+        <span className="absolute right-0 w-8 h-32 -mt-12 rotate-12 bg-white opacity-10 transform translate-x-12 transition-all duration-1000 ease group-hover:-translate-x-40"></span>
 
-        <span className="relative group-hover:text-white">Add To Cart</span>
+        <span className="relative">Add To Cart</span>
       </button>
     </div>
   );
