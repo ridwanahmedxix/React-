@@ -76,6 +76,42 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* THIRD SECTION CODE START   */}
+
+      <section className="mt-10 my-16">
+        <div>
+          <h2>Latest News</h2>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing.
+          </p>
+          <div className="grid  md:grid-cols-3">
+            <div>
+              <img src="/photo/blog-1.jpg" alt="" />
+              <div>
+                <h3>A guide to latest trends</h3>
+                <p>By Admin</p>
+              </div>
+            </div>
+
+            <div>
+              <img src="/photo/blog-2.jpg" alt="" />
+              <div>
+                <h3>Five ways to lead a happy life</h3>
+                <p>By Admin</p>
+              </div>
+            </div>
+
+            <div>
+              <img src="/photo/blog-3.jpg" alt="" />
+              <div>
+                <h3>Tips on having a happy life</h3>
+                <p>By Admin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
