@@ -92,8 +92,10 @@ const Home = () => {
                 src="/photo/blog-1.jpg"
                 alt=""
               />
-              <div>
-                <h3>A guide to latest trends</h3>
+              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 ">
+                <h3 className="font-medium text-[17px] pt-2 pb-1 ">
+                  A guide to latest trends
+                </h3>
                 <p>By Admin</p>
               </div>
             </div>
@@ -104,8 +106,10 @@ const Home = () => {
                 src="/photo/blog-2.jpg"
                 alt=""
               />
-              <div>
-                <h3>Five ways to lead a happy life</h3>
+              <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 ">
+                <h3 className="font-medium text-[17px] pt-2 pb-1 ">
+                  Five ways to lead a happy life
+                </h3>
                 <p>By Admin</p>
               </div>
             </div>
@@ -117,7 +121,9 @@ const Home = () => {
                 alt=""
               />
               <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 ">
-                <h3>Tips on having a happy life</h3>
+                <h3 className="font-medium text-[17px] pt-2 pb-1 ">
+                  Tips on having a happy life
+                </h3>
                 <p>By Admin</p>
               </div>
             </div>
