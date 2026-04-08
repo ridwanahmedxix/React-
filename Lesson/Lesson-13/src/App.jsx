@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [count, setCount] = useState(22);
+
   return (
     <div>
-      <h1>Hello World</h1>
-      <button>GG Man</button>
+      <h1> {count} </h1>
+      <br />
+      <button>Increase</button>
+      <button>Decrease</button>
     </div>
   );
 }
