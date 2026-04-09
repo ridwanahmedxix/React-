@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const UseState = () => {
+  const [count, setCount] = useState(22);
+
   return (
     <div>
       <h1> {count} </h1>
