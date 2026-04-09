@@ -20,10 +20,6 @@ const Navbar = () => {
 
           <div>
             <button> Book a Demo </button>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Possimus, impedit!
-            </p>
           </div>
         </div>
       </nav>
