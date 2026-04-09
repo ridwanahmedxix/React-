@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useReducer, useState } from "react";
 import "./App.css";
-import UseState from "./components/UseState/UseState";
 
 function App() {
+  useReducer();
+
   return (
     <div>
-      <UseState></UseState>
+      <button>Increase</button>
+      <button>Decrease</button>
     </div>
   );
 }
