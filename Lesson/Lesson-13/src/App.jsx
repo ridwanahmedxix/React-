@@ -1,9 +1,8 @@
-import React, { useReducer, useState } from "react";
+import React, { useReducer } from "react";
 import "./App.css";
 
 function App() {
-  const initialValue = 22;
-
+  const initialValue = 33;
   const reducer = (state, action) => {
     if (action === "plus") {
       return state + 1;
@@ -25,5 +24,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
