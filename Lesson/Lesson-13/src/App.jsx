@@ -2,7 +2,11 @@ import React, { useReducer, useState } from "react";
 import "./App.css";
 
 function App() {
-  useReducer();
+  const initialValue = 22;
+
+  const reducer = () => {};
+
+  useReducer(reducer, initialValue);
 
   return (
     <div>
