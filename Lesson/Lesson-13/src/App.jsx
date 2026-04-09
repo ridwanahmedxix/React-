@@ -4,14 +4,24 @@ import "./App.css";
 function App() {
   const initialValue = 22;
 
-  const reducer = () => {};
+  const reducer = (state, action) => {
+    if (action === "plus") {
+      return state + 1;
+    } else if (action === "minus") {
+      return state - 1;
+    }
+  };
 
-  useReducer(reducer, initialValue);
+  const [count, dispatch] = useReducer(reducer, initialValue);
 
   return (
     <div>
-      <button>Increase</button>
-      <button>Decrease</button>
+      <h1> {count} </h1>
+      <br />
+      <button onClick={() => dispatch("plus")}>Increase</button>
+      <br />
+      <br />
+      <button onClick={() => dispatch("minus")}>Decrease</button>
     </div>
   );
 }
