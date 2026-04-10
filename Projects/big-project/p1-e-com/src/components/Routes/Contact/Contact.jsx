@@ -75,7 +75,7 @@ const Contact = () => {
       <div className="">
         <img
           className=" max-w-[270px] w-[100%]  sm:max-w-[400px] sm:w-[100%]"
-          src="/photo/contactSec.jpg"
+          src="/public/photo/contactSec.jpg"
           alt=""
         />
       </div>

@@ -26,7 +26,7 @@ const Home = () => {
         <div>
           <img
             className=" max-w-[600px] w-[100%] "
-            src="/photo/still-life-technology-device-minimal-display.png"
+            src="/public/photo/still-life-technology-device-minimal-display.png"
             alt=""
           />
         </div>
@@ -89,7 +89,7 @@ const Home = () => {
             <div>
               <img
                 className="max-w-[300px] w-full mx-auto overflow-hidden transition-transform duration-300 hover:scale-110"
-                src="/photo/blog-1.jpg"
+                src="/public/photo/blog-1.jpg"
                 alt=""
               />
               <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 mt-2 mb-8 ">
@@ -103,7 +103,7 @@ const Home = () => {
             <div>
               <img
                 className="max-w-[300px] w-full mx-auto overflow-hidden transition-transform duration-300 hover:scale-110"
-                src="/photo/blog-2.jpg"
+                src="/public/photo/blog-2.jpg"
                 alt=""
               />
               <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 mt-2 mb-8 ">
@@ -117,7 +117,7 @@ const Home = () => {
             <div>
               <img
                 className="max-w-[300px] w-full mx-auto overflow-hidden transition-transform duration-300 hover:scale-110"
-                src="/photo/blog-3.jpg"
+                src="/public/photo/blog-3.jpg"
                 alt=""
               />
               <div className=" max-w-[300px] w-[100%] mx-auto bg-[#f7f7f7] py-4 mt-2 mb-8 ">
