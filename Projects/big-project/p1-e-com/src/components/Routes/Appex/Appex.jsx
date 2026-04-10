@@ -14,10 +14,10 @@ const Appex = () => {
     <div>
       <Products AddToCart={AddToCart}></Products>
       <PlaceMent key={cart.id} cart={cart}></PlaceMent>
-      <p>
+      {/* <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
         perferendis.
-      </p>
+      </p> */}
     </div>
   );
 };
