@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 
 const Products = () => {
-  const [setData, Data] = useState([]);
+  const [laptop, setLaptop] = useState([]);
 
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
-      .then((data) => setData(data));
+      .then((data) => setLaptop(data));
   }, []);
 
   return <div>Products</div>;
