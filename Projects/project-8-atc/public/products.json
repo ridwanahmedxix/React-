@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Dell XPS 13",
+    "price": 1299,
+    "brand": "Dell",
+    "color": "Silver"
+  },
+  {
+    "id": 2,
+    "name": "HP Spectre x360",
+    "price": 1399,
+    "brand": "HP",
+    "color": "Black"
+  },
+  {
+    "id": 3,
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "price": 1499,
+    "brand": "Lenovo",
+    "color": "Black"
+  },
+  {
+    "id": 4,
+    "name": "Apple MacBook Air M3",
+    "price": 1199,
+    "brand": "Apple",
+    "color": "Midnight"
+  },
+  {
+    "id": 5,
+    "name": "Asus ZenBook 14",
+    "price": 999,
+    "brand": "Asus",
+    "color": "Blue"
+  },
+  {
+    "id": 6,
+    "name": "Acer Swift 5",
+    "price": 1099,
+    "brand": "Acer",
+    "color": "Green"
+  },
+  {
+    "id": 7,
+    "name": "MSI Prestige 14",
+    "price": 1249,
+    "brand": "MSI",
+    "color": "Gray"
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy Book4",
+    "price": 1149,
+    "brand": "Samsung",
+    "color": "Silver"
+  },
+  {
+    "id": 9,
+    "name": "Microsoft Surface Laptop 6",
+    "price": 1599,
+    "brand": "Microsoft",
+    "color": "Platinum"
+  },
+  {
+    "id": 10,
+    "name": "Razer Blade 15",
+    "price": 1999,
+    "brand": "Razer",
+    "color": "Black"
+  },
+  {
+    "id": 11,
+    "name": "LG Gram 16",
+    "price": 1699,
+    "brand": "LG",
+    "color": "White"
+  },
+  {
+    "id": 12,
+    "name": "Huawei MateBook X Pro",
+    "price": 1499,
+    "brand": "Huawei",
+    "color": "Space Gray"
+  }
+]
