@@ -1,0 +1,47 @@
+Products -
+
+import React, { useEffect, useState } from "react";
+import Product from "../Product/Product";
+
+const Products = () => {
+  const [laptop, setLaptop] = useState([]);
+
+  useEffect(() => {
+    fetch("products.json")
+      .then((res) => res.json())
+      .then((data) => setLaptop(data));
+  }, []);
+
+  return (
+    <div className="grid grid-cols-3 gap-4  text-center">
+      {laptop.map((singleLaptop) => (
+        <Product key={singleLaptop.id} singleLaptop={singleLaptop}></Product>
+      ))}
+    </div>
+  );
+};
+
+export default Products;
+
+
+============================================================
+
+Product -
+
+import React from "react";
+
+const Product = ({ singleLaptop }) => {
+  const { id, name, price, brand, color } = singleLaptop;
+
+  return (
+    <div className=" border-2 border-blue-600 m-3 rounded-[20px]  py-3 px-2">
+      <p className="py-1"> Id - {id}</p>
+      <p className="py-1"> Name - {name}</p>
+      <p className="py-1"> Price - {price}</p>
+      <p className="py-1"> Brand - {brand}</p>
+      <p className="py-1"> Color - {color}</p>
+    </div>
+  );
+};
+
+export default Product;
