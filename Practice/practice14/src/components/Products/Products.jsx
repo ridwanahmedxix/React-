@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 
 const Products = () => {
   const [count, setCount] = useState([]);
-  useEffect(() => {}, []);
+  useEffect(() => {
+    fetch("products.json")
+      .then((res) => res.json())
+      .then((data) => setCount(data));
+  }, []);
 
   return <div></div>;
 };
