@@ -3,6 +3,7 @@ import Product from "../Product/Product";
 
 const Products = () => {
   const [count, setCount] = useState([]);
+
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
@@ -11,12 +12,9 @@ const Products = () => {
 
   return (
     <div>
-      {count.map((singleProduct) => {
-        <Product
-          key={singleProduct.id}
-          singleProduct={singleProduct}
-        ></Product>;
-      })}
+      {count.map((singleProduct) => (
+        <Product key={singleProduct.id} singleProduct={singleProduct} />
+      ))}
     </div>
   );
 };
