@@ -9,7 +9,7 @@ const Products = () => {
       .then((data) => setProductStore(data));
   }, []);
   return (
-    <div>
+    <div className="grid grid-cols-3 gap-3 m-4">
       {productStore.map((singleProduct) => (
         <Product key={singleProduct.id} singleProduct={singleProduct}></Product>
       ))}
