@@ -1,7 +1,7 @@
 import React from "react";
 
-const Product = ({ singleProduct, AddToCart }) => {
-  const { id, name, price, brand, color } = singleProduct;
+const PlaceMent = ({ cart }) => {
+  const { id, name, price, brand, color } = cart;
 
   return (
     <div className="border-[2px] border-cyan-400 py-2 text-[19px] m-[10px] rounded-[10px] ">
@@ -10,15 +10,8 @@ const Product = ({ singleProduct, AddToCart }) => {
       <p> Price - {price} </p>
       <p> Brand - {brand} </p>
       <p> Color - {color} </p>
-      <br />
-      <button
-        onClick={() => AddToCart(singleProduct)}
-        className="bg-green-400 py-1 px-2"
-      >
-        Add To Cart
-      </button>
     </div>
   );
 };
 
-export default Product;
+export default PlaceMent;
