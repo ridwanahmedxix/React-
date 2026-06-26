@@ -1,15 +1,13 @@
-import React from "react";
-
-const OneData = ({ item }) => {
-  const { id, name, price, brand, color } = item;
+const OneData = ({ OneData }) => {
+  const { id, name, price, brand, color } = OneData;
 
   return (
     <div>
-      <p> Id - {id} </p>
-      <p> Name - {name} </p>
-      <p> Price - {price} </p>
-      <p> Brand - {brand} </p>
-      <p> Color - {color} </p>
+      <p>Id - {id}</p>
+      <p>Name - {name}</p>
+      <p>Price - {price}</p>
+      <p>Brand - {brand}</p>
+      <p>Color - {color}</p>
     </div>
   );
 };
