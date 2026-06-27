@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Product from "../Product/Product";
 
 const Products = () => {
   const [productStore, setProductStore] = useState([]);
@@ -8,7 +9,13 @@ const Products = () => {
       .then((data) => setProductStore(data));
   }, []);
 
-  return <div></div>;
+  return (
+    <div>
+      {productStore.map((singleProduct) => (
+        <Product singleProduct={singleProduct}></Product>
+      ))}
+    </div>
+  );
 };
 
 export default Products;
