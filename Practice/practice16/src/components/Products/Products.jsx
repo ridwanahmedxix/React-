@@ -10,7 +10,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 gap-5">
+    <div className="grid grid-cols-3 gap-5 mt-4 mx-10">
       {productStore.map((singleProduct) => (
         <Product singleProduct={singleProduct}></Product>
       ))}
