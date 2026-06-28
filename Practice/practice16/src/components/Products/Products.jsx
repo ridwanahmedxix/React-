@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Product from "../Product/Product";
 
-const Products = () => {
+const Products = ({ AddToCart }) => {
   const [productStore, setProductStore] = useState([]);
   useEffect(() => {
     fetch("products.json")
@@ -12,7 +12,7 @@ const Products = () => {
   return (
     <div className="grid grid-cols-3 gap-5 mt-4 mx-10">
       {productStore.map((singleProduct) => (
-        <Product singleProduct={singleProduct}></Product>
+        <Product key={singleProduct.id} singleProduct={singleProduct}></Product>
       ))}
     </div>
   );

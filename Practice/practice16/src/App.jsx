@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="flex gap-6 ">
-      <Products></Products>
+      <Products AddToCart={AddToCart}> </Products>
       <PlaceMent></PlaceMent>
     </div>
   );
